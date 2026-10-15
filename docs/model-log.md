@@ -1,6 +1,6 @@
 # Model log (notable models)
 
-Model IDs are public on the puzzle API. O/E is the state-adjusted score explained in [06](06-statistics.md).
+O/E is the state-adjusted score explained in [06](06-statistics.md).
 
 | Model | Name | Idea | Result | O/E |
 |---|---|---|---|---|

@@ -24,8 +24,6 @@ Sessions share findings through a common `SYNTHESIS.md` and their own `NOTES.md`
 - **Never pay twice on an unresolved quote.** Reconcile it through `GET /v1/quotes/{id}` first, as the docs
   require. Several sessions hit stale or empty challenges and handled them without double-paying.
 - **Run queue:** at most 1–2 queued runs per session. The machine is shared with everyone.
-- **Secrets:** the API key never appears in logs, commits or command traces. One session caught a `set -x` that
-  would have printed it, and removed it before it ran.
 - **Hypothesis first:** each new model ID records the change and its hypothesis.
 - **Finish qualifiers:** a 20-run qualifying batch, once started, is always finished.
 

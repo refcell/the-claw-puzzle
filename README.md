@@ -9,7 +9,6 @@ We play as `andreaslbigger`. The work is done by a team of autonomous AI coding-
 parallel, steered by a coordinator agent and a human. This repo records what we tried, what helped, what
 failed, and what we learned about the machine. It's updated as the work goes on.
 
-
 ## Where things stand
 
 _As of Oct 15, 21:30 UTC. Public board: publicqi and virtual_jpeg tied #1 at 14/20, us #3 at 12/20, then brockjelmore 9/22 and ethanmlam 13/38._

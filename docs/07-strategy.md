@@ -35,8 +35,6 @@
 - **No extra accounts or identities** to add leaderboard entries.
 - **No forcing refunds or voids** to drop losses.
 - **No interfering with other players' runs** or the public queue beyond our own paid turns.
-- **No secrets in public:** this repo has no keys, tokens or wallet data, and we don't link anonymous wallets to
-  people.
 
 Anything odd we notice during normal play, such as scoring, pricing or timing quirks, gets written down as
 feedback for the puzzle's makers.

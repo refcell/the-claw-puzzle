@@ -9,8 +9,6 @@ We play as `andreaslbigger`. The work is done by a team of autonomous AI coding-
 parallel, steered by a coordinator agent and a human. This repo records what we tried, what helped, what
 failed, and what we learned about the machine. It's updated as the work goes on.
 
-> Nothing in this repo is a secret: no API keys, tokens, wallets or private data. Model IDs and leaderboard
-> numbers are public on the puzzle's API.
 
 ## Where things stand
 

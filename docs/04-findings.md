@@ -56,12 +56,21 @@ Escapes by zone for losing grabs:
 After an escape, the next run wins far more often than when the capsule stays put (far right: 30/87 vs 8/99).
 - **Far right:** a normal-depth grab at `R 1600–1800`. Landing behind the capsule at the end stop is worse (4/14 escaped).
 - **Back-right:** landing behind the capsule (ey < 0) rakes it forward (11/19), but the next run didn't win more often.
+- **Sticky front-green back-right spot** (oy ≥ 0.8, cx 87.8–89.6, cy 82.5–84.8; about 8% of all recordings):
+  across all players, 82 grabs won once, and standard aims (U 800–1000) move it less than 1 px. **Overshooting
+  with U = 1400** (R unchanged) went 3 for 3 live: 1 win and 2 dislodges (7 px and 20 px). The old win rate was
+  about 1%, so the rule costs nothing.
 - **Manual grabs** free front-green capsules a bit more often than model grabs (19% vs 14%).
 
 ## 6. Aim map (measured landings from video)
 - Landing x is measured as the claw column at its lowest point. Two independent readings agree to 0.78 px.
 - **Win rate vs measured dx:** < −1: 17/61; −1..0: 18/33; 0..+1: 17/30; +1..+2: 13/17.
-- **The claw tends to land left.** The best overall offset is about **+1.25 px**.
+- **Mid-field sweet window:** measured dx +0.5..+1.5 won 16/20.
+- **v2 already lands in that window on average.** An earlier reading that v2 lands 0.32 px left of target came
+  from 13 noisy runs and was wrong. A build that added a +0.75/+1.25 px x shift went 4/20, and its mid-field misses
+  all landed right (dx +1.1 to +2.6). The recommended x shift relative to v2 is **0**.
+- **Front edge:** cy ≥ 94.5 is 0/6 across all model runs (U 125–254). Wins at cy 93.5–94.5 used U 171–269. That
+  row may need less U than any calibration predicts; it's untested.
 
 ## 7. Night
 - Sunset to sunrise (about 01:35–14:15 UTC) roughly halves win rates for everyone.

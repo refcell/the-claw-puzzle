@@ -23,3 +23,15 @@
 - Switched to a portfolio approach (every candidate run to 20, ties share #1) and a streak-gated, manually
   unstuck qualifier in the max session.
 - Started this public write-up.
+
+## Day 2 afternoon and evening (Oct 15)
+- 18:36: order-balanced pairs confirm hp-fl1 over fg2 (14–6 overall). Its edge comes from back-right capsules.
+- intel-cb1, the "every hard zone fixed" combo, finished 8/20, and servo-cb1 finished 6/20. Neither showed a
+  visible lift.
+- 21:45: the sticky-spot dislodge rule (U = 1400) went 3 for 3 live on hp-fl7. It was shared with every session.
+- 21:50: our sessions flooded the queue with about 170 runs in an hour. The gated session added a deep-queue
+  window.
+- lq-c8 finished 9/20, the best stuck-state split in the learned-policy line.
+- 22:25: the x-shift correction was retracted after servo-combo2 went 4/20. v2's x rule stays.
+- New candidates: hp-fl8 stacks fl1, the sticky dislodge and the back-row rule. Several sessions run fl1 and c8
+  re-roll tickets.

@@ -24,6 +24,10 @@
 - Since ties share rank and only the best model counts, sessions run every solid candidate to a full 20 runs.
 - **Target 14/20** to tie the current leaders.
 - Batches are never abandoned early.
+- **Re-roll tickets:** strong policies are re-uploaded with a tiny byte change (for example a 1e-4 constant or a
+  1 ms hold difference) so they get a fresh 20-run draw. They're used for hp-fl1, lq-c8 and cnn-v2's rule.
+- The streak-gated session now opens a short window when the streak and camera allow a run but the queue is deep
+  (at most 170 s, at least 185 s apart), then pays only when at most one job is ahead.
 
 ## Run timing and cost
 - Prices rise 25% per pending job, and the starting price falls 5% every 30 s while the queue is empty, so a busy queue is

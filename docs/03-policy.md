@@ -77,7 +77,22 @@ three hard zones:
 - a shallow front-green target, `ey 1.2`
 - far right at `R 1780`
 
-It's built but not yet tested live.
+**Live result: 8/20.** 15 of its 20 runs went into stuck states (fresh 2/5, stuck 6/15 against a stuck
+baseline of about 17–21%). Its predecessor-adjusted lift was +0.089 per run (z 0.87): positive but not
+significant. A sister build, servo-cb1, went 6/20, and its branch classes won 1/12, in line with the band rates.
+Fixing all three hard zones on paper didn't produce a visible gain at n = 20.
+
+## Current stack (late day two)
+**hp-fl8** stacks the three parts with the best live evidence:
+- **hp-fl1** as the foundation: order-balanced pairs against fg2 went 14–6, with an adjusted lift of +0.21 per run
+  (z 4.0, n = 70). 7 of its 11 discordant wins were back-right capsules (cx 88–89.6, cy 81–84), where it uses the
+  linear R map (R ≈ 1720–1790) instead of the v2 pin (R ≥ 1850).
+- **Sticky-spot dislodge:** for a front-green capsule (oy ≥ 0.8) at cx 87.8–89.6, cy 82.5–84.8, set **U = 1400**
+  with R unchanged, landing about 4.5 rows behind it. See [04 §5](04-findings.md).
+- **Back-row rule** (cx < 88): ey 3.1, ex 0.
+
+intel-flbk tests fl1 plus only the back-row rule, which moves fl1's non-teal back-right landings from ey 2.4–2.7
+(the weak band) to 3.1.
 
 ## Night
 Win rates are about 30% or less at night for everyone, us included. After the ROI fix, our night performance

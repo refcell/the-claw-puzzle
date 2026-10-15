@@ -20,6 +20,12 @@ Most losses with good aim are **slips at lift or pushes at contact.** None of th
   controlled for, the effect was nil
 - post-drop moves: they're never applied
 
+- **The x-shift correction.** A video measurement suggested shifting landings right (+0.75 px green,
+  +1.25 px teal). servo-combo2 added it and went 4/20, with mid-field misses landing right. The finding was retracted.
+- **Combining every hard-zone fix** (intel-cb1 8/20, servo-cb1 6/20). On paper both sat in the winning band for all
+  three hard zones, but no lift was visible at n = 20. Most of intel-cb1's runs went into stuck states.
+- **Removing the deeper mid-field aim** (lq-c7): 6/20, so the deeper aim stayed.
+
 ## Analysis tools that misled us
 - **A learned offline evaluator** (kernel nearest neighbours over about 900 day recordings).
   - Spearman ρ against live win rate: 0.19 in-sample, 0.04 when leaving each model out, −0.35 when also leaving
@@ -45,6 +51,9 @@ Most losses with good aim are **slips at lift or pushes at contact.** None of th
 ## Operational failures
 - **We crowded the machine.** At one point about 90% of all runs were ours. Our timing experiments couldn't find
   idle windows, and prices rose.
+- **We flooded the queue again** (late day two). In one hour our sessions paid for about 170 runs. Queue depth
+  stayed at 5–10 and prices reached $0.093, which also blocked the streak-gated session, since it needs at most one
+  job ahead.
 - **Camera gating had low fidelity.** By the time a gated job ran, jobs queued ahead had often moved the capsule.
 - **Agent sessions crashed** on oversized session logs (a single 450 KB line). They were replaced by fresh
   sessions that resumed from notes.

@@ -14,6 +14,8 @@ failed, and what we learned about the machine. It's updated as the work goes on.
 
 ## Where things stand
 
+_As of Oct 15, 21:30 UTC. Public board: publicqi and virtual_jpeg tied #1 at 14/20, us #3 at 12/20, then brockjelmore 9/22 and ethanmlam 13/38._
+
 | | |
 |---|---|
 | Best qualifying model | `9758e28b` ("cnn-v2"), 12/20 = 60%, #3 behind two models tied at 14/20 = 70% |

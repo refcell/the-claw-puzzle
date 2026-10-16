@@ -53,3 +53,6 @@
 - hp built hp-c8s, which is c8r2 plus the sticky-spot dislodge. Play slowed to a handful of runs an hour.
 - 17:50 UTC: a census of 1,430 recordings showed the commonest stuck cells are all front-green near-right, and that
   landing at or behind the capsule moves it far more often (9/15 vs 6/130). hp-fl10 tests a widened sticky zone.
+- 16:40 UTC onward: a long server outage (auth errors, leaderboard timeouts) stalled every runner. Failed attempts
+  weren't charged.
+- lq-c8r4 finished 12/20, so the c8 family stands at 60/100. The hp-fl1 copy intel-fl1r1 finished 10/20 (fresh 6/7).

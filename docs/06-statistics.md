@@ -45,8 +45,9 @@ A variant: compute the expectation from the outcomes of the ±60 neighbouring ru
 ## Re-roll tickets and selection
 The board counts each player's best model, so running several byte-distinct copies of one policy and keeping
 the best is a legitimate strategy. Its best batch overstates the policy's true rate, though.
-- lq-c8's four finished draws went 9, 15, 16 and 8 out of 20. Pooled, that's 48/80 = 60%, an honest point estimate
-  with a wide interval (roughly 49–70%).
+- lq-c8's five finished draws went 9, 15, 16, 8 and 12 out of 20. Pooled, that's 60/100 = 60%, an honest point
+  estimate with a wide interval (roughly 50–70%). Our 16/20 board entry is its best draw.
+- **Fresh vs stuck dominates:** an hp-fl1 copy went 10/20 raw, but 6/7 from fresh states and 4/13 from stuck ones.
 - **The same rule, an hour apart:** cnn-v26 and cnn-v27 have identical aim and went 11/20 and 5/20. A 20-run batch
   mostly measures its time window.
 - If the true rate were 50%, P(≥ 16/20) in a single batch would be about 0.6%. At 67% it's roughly 15–20%, and with

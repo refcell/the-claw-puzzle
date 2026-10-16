@@ -29,6 +29,9 @@
 - The streak-gated session now also lets a clean good-zone frame through regardless of the streak (cx < 84,
   cy 84–94.5, oy < 0.6, compact blob). In its history, the camera check alone won 104/157 = 66%, and adding the
   streak gate gave 65%, so the streak gate added nothing on top of a clean camera frame.
+- **The gate rarely opens.** Over 8 hours (1,356 camera samples), the capsule sat in a vetoed zone 82% of the time.
+  All gate conditions held in only 29 samples (2%), and every one of those was a good-zone frame. Strict gating
+  buys a higher per-run rate at the cost of very few runs.
 - The streak-gated session vetoes clean frames at 84 ≤ cx < 88 (43% win rate, n = 58) as well as far right. A
   stricter cx < 84 veto would be about 60% but would cost throughput.
 - The streak-gated session now opens a short window when the streak and camera allow a run but the queue is deep

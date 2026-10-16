@@ -58,3 +58,5 @@
 - lq-c8r4 finished 12/20, so the c8 family stands at 60/100. The hp-fl1 copy intel-fl1r1 finished 10/20 (fresh 6/7).
 - 21:00 UTC: the outage was still ongoing (HTTP 503/504 on runs and the leaderboard). Runners keep retrying, and
   5xx errors before payment are now treated as retryable.
+- 18:45 UTC: an audit of the streak-gated session found the gate open in only 2% of 8 hours of camera samples.
+- 22:00 UTC: the puzzle API was still down. Our last paid run was at 18:21 UTC.

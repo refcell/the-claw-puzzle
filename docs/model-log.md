@@ -22,6 +22,7 @@ O/E is the state-adjusted score explained in [06](06-statistics.md).
 | `b52eefac` | lq-c7 | c5 without the deeper mid-field aim | 6/20 | — |
 | `cf5bdf31` | cnn-v24 | re-roll of the v2 rule | 6/20 | — |
 | `c9d347d7` | hp-fl7 | fl1 + sticky-spot dislodge (U 1400) | 5/20; sticky rule 3/3 | — |
+| `6a432ecb` | cnn-v25 | v2 x/pin + face-aware U (green 2.7 / teal 3.7) | 3/20 (fresh 3/14); didn't repeat day one's 8/16 | — |
 | hp-fl4 | hp-fl4 | fl1 + back-right non-front-green at ey 3.25 | 5/20 | — |
 | `6643d0e3` | servo-combo2 | v2 + x shift + face-aware U | 4/20 (x shift retracted) | — |
 | `eaa9fd08` | cnn-v12 | colour map for the right zone, no pin | 0/20 (entirely in stuck states) | 0.00 |

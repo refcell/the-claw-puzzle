@@ -35,3 +35,9 @@
 - 22:25: the x-shift correction was retracted after servo-combo2 went 4/20. v2's x rule stays.
 - New candidates: hp-fl8 stacks fl1, the sticky dislodge and the back-row rule. Several sessions run fl1 and c8
   re-roll tickets.
+- 22:50–23:30: DNS failures, a connection-reset outage and payment anomalies stopped several runners. All were
+  reconciled with no double charges. cnn-v25 (face-aware U) finished 3/20.
+- Play wound down overnight. About 36 more runs were logged before 06:00 UTC on Oct 16.
+
+## Day 3 (Oct 16)
+- By 14:20 UTC, publicqi had moved to 18/20 (90%) and virtual_jpeg to 15/20, both on new models. We hold #3 at 12/20.

@@ -41,3 +41,8 @@
 
 ## Day 3 (Oct 16)
 - By 14:20 UTC, publicqi had moved to 18/20 (90%) and virtual_jpeg to 15/20, both on new models. We hold #3 at 12/20.
+- Runners restarted at 14:21 UTC after an overnight stop (spending caps and payment anomalies, all reconciled).
+- **14:50 UTC: lq-c8r2 (`8ad9b56a`) finished 16/20 and took #2.** lq-c8r finished 15/20. Together with the first
+  c8 batch (9/20), that family stands at 40/60.
+- hp-fl8 finished 9/20, intel-flbk 7/20, v3c-fl1r 10/20 and cnn-v26 11/20. More c8 re-roll tickets were launched,
+  aiming for ≥ 18/20.

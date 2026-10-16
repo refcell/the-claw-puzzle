@@ -4,7 +4,7 @@ All amounts are in OUSD (about US$1 each).
 
 ## Costs
 - **Typical entry fee:** $0.01–0.03, rising with our own queue depth.
-- **Total entry fees by the end of day two:** about $49 across all sessions, for about 2,250 logged runs.
+- **Total entry fees by the end of day two:** about $53 across all sessions, for about 2,370 logged runs.
   The three biggest sessions (combined-v3, hard-placement, learned-policy) account for about $8.2–8.5 each
   (370–405 runs).
 - **Training data:** buying every cheap recording in the market cost about $0.80 for about 660 recordings.

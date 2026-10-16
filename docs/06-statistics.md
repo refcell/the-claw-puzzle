@@ -41,3 +41,13 @@ A variant: compute the expectation from the outcomes of the ±60 neighbouring ru
 - **Expect most pairs to be concordant.** Only discordant pairs carry information.
 - **Use a control at the field average, or skip the control** and score each run against its predecessor's
   outcome instead: about 0.39 expected after a win, about 0.21 after a loss.
+
+## Re-roll tickets and selection
+The board counts each player's best model, so running several byte-distinct copies of one policy and keeping
+the best is a legitimate strategy. Its best batch overstates the policy's true rate, though.
+- lq-c8's three draws went 9, 15 and 16 out of 20. Pooled, that's 40/60 = 67%, an honest point estimate with a wide
+  interval (roughly 54–78%).
+- If the true rate were 50%, P(≥ 16/20) in a single batch would be about 0.6%. At 67% it's roughly 15–20%, and with
+  several tickets in flight a 16 is unsurprising.
+- Time of day and machine state still dominate. The weak batch ran when the field was winning about 25%.
+

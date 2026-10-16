@@ -4,6 +4,12 @@ O/E is the state-adjusted score explained in [06](06-statistics.md).
 
 | Model | Name | Idea | Result | O/E |
 |---|---|---|---|---|
+| `8ad9b56a` | lq-c8r2 | c8 re-roll ticket | **16/20 (#2 on the board)** | — |
+| `28823771` | lq-c8r | c8 re-roll ticket | 15/20 | — |
+| `29e44590` | cnn-v26 | v2 + hard-zone bands | 11/20 (band classes 2/9) | — |
+| `220e2f0f` | v3c-fl1r | hp-fl1 copy | 10/20 | 1.64 |
+| `eab59850` | hp-fl8 | fl1 + sticky dislodge + back-row rule | 9/20 | — |
+| `25c6db79` | intel-flbk | fl1 + back-row rule | 7/20 | — |
 | `e3751a87` | cnn-v0 | colour centroid → open-loop R/U, settle 8 | 10/20 | 1.97 |
 | `9758e28b` | cnn-v2 | v0 + perspective cross-term + far-right end-stop pin | **12/20 (our board entry)** | 1.91 |
 | `8fb77333` | hp-fg2 | v2 + front-green branch; later used as the control | 13/21 at first, 55/208 overall | 1.03 |
@@ -15,7 +21,7 @@ O/E is the state-adjusted score explained in [06](06-statistics.md).
 | `bba518a8` | intel-bk1 | back-row aim ex 0 / ey 3.1 | 11/30 | 1.36 |
 | `cc16ca7b` | v3c-p4 | standing capsules aimed left | 9/20 | 1.56 |
 | `29b7a180` | servo-ol1 | open loop, U targets ey ≈ 2.65 | 9/20 | 1.40 |
-| `506aad7f` | lq-c8 | c5 + far right at R 1780 instead of the 2600 pin | 9/20 (stuck states 4/8, our best stuck split) | — |
+| `506aad7f` | lq-c8 | c5 + far-right R 1750 (not the 2600 pin) + near-right back ey 3.25 | 9/20 (stuck states 4/8, our best stuck split) | — |
 | `ab0bef8c` | v3c-c5 | combined-v3 line | 8/20 | 1.42 |
 | `1f8c4a07` | intel-cb1 | every hard zone in its winning band | 8/20 (15 runs in stuck states) | lift +0.089, z 0.87 |
 | servo-cb1 | servo-cb1 | servo-line build of the same combo | 6/20 | — |
@@ -28,8 +34,8 @@ O/E is the state-adjusted score explained in [06](06-statistics.md).
 | `eaa9fd08` | cnn-v12 | colour map for the right zone, no pin | 0/20 (entirely in stuck states) | 0.00 |
 | servo cl2–cl4 | closed loop | servo on the claw | 0/4 | — |
 
-**Running now:** hp-fl8 (`eab59850`, fl1 + sticky dislodge + back-row rule), intel-flbk (`25c6db79`, fl1 +
-back-row rule), v3c-fl1r (`220e2f0f`, fl1 re-roll), lq-c8r / c8r2 (`28823771`, `8ad9b56a`), lq-c5r2 (`6d995201`),
-cnn-v25 (`6a432ecb`, face-aware U green 2.7 / teal 3.7) and servo-fg2n (`e7e482d3`).
+**Running now:** lq-c8r3 / c8r4 (`00384ad6`, `e72e7b93`), hp-fl9 (`78a91c6e`, fl8 + an orientation split at
+cx ≥ 87.5: front-green goes deep at ey 1.2, others use the linear map), fl1 copies intel-fl1r1 (`ad7d691a`) and v3c-fl1r2
+(`00e5e767`), and cnn-v27 (`e9493ff3`).
 
 Most of the roughly 60 other models scored 2/20 to 9/20. They're summarised by idea in [05](05-failures.md).

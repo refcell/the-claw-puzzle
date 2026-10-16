@@ -82,7 +82,19 @@ baseline of about 17–21%). Its predecessor-adjusted lift was +0.089 per run (z
 significant. A sister build, servo-cb1, went 6/20, and its branch classes won 1/12, in line with the band rates.
 Fixing all three hard zones on paper didn't produce a visible gain at n = 20.
 
-## Current stack (late day two)
+## lq-c8: our best board result (day three)
+lq-c8 is lq-c5 with two hard-zone changes taken from the all-player band data:
+- far-right R pin **1750** (was 2600)
+- near-right back corner at **ey 3.25** (was 2.75)
+
+Full build parameters: `settle=11 pull=0.75 left=1 xfg5=1 xramp=1 nrback=1 middeep=0.5 nrfg=2.25 rfar=1750
+nrbey=3.25`. Re-roll tickets change only `left` to 1.0001, 1.0002 and so on, so the bytes differ.
+
+Three 20-run draws of the same policy: **9/20, 15/20, 16/20** (40/60 = 67%). The 9/20 batch ran in a weak
+evening window (field about 25%), and the two strong batches ran on the morning of day three. See
+[06](06-statistics.md) for why best-of-several is an optimistic estimate.
+
+## Stack from late day two
 **hp-fl8** stacks the three parts with the best live evidence:
 - **hp-fl1** as the foundation: order-balanced pairs against fg2 went 14–6, with an adjusted lift of +0.21 per run
   (z 4.0, n = 70). 7 of its 11 discordant wins were back-right capsules (cx 88–89.6, cy 81–84), where it uses the

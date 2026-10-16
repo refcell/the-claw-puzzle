@@ -24,6 +24,9 @@ Most losses with good aim are **slips at lift or pushes at contact.** None of th
   +1.25 px teal). servo-combo2 added it and went 4/20, with mid-field misses landing right. The finding was retracted.
 - **Combining every hard-zone fix** (intel-cb1 8/20, servo-cb1 6/20). On paper both sat in the winning band for all
   three hard zones, but no lift was visible at n = 20. Most of intel-cb1's runs went into stuck states.
+- **Stacking evidence-backed parts on hp-fl1:** hp-fl8 (fl1 + sticky dislodge + back-row rule) went 9/20, and
+  intel-flbk (fl1 + back-row rule) went 7/20. Neither beat fl1's own rate.
+- **The far-right R-band from all-player data** (9/54 won at R 1600–1800) went 0/7 live in the intel builds.
 - **Removing the deeper mid-field aim** (lq-c7): 6/20, so the deeper aim stayed.
 
 ## Analysis tools that misled us

@@ -62,6 +62,8 @@ After an escape, the next run wins far more often than when the capsule stays pu
   about 1%, so the rule costs nothing.
 - **Front-right corner** (about cx 92.6, cy 94.2): a normal far-right grab at R 1700 didn't reach it. The recipe
   now uses R 2000, U 160. It's untested.
+- **Far-right manual grabs:** R 1700 only reaches about cx 88.9, so the recipe now uses R = max(1700, R_v2 + 80),
+  capped at 2600.
 - **Deep back-right corner** (cx 88–90.3, cy 80–82): the back-right band data is mostly cy 82–86, so it doesn't cover
   this corner. intel-cb1 went 1/5 there, mostly on one stuck capsule hit repeatedly.
 - **Manual grabs** free front-green capsules a bit more often than model grabs (19% vs 14%).

@@ -46,3 +46,6 @@
   c8 batch (9/20), that family stands at 40/60.
 - hp-fl8 finished 9/20, intel-flbk 7/20, v3c-fl1r 10/20 and cnn-v26 11/20. More c8 re-roll tickets were launched,
   aiming for ≥ 18/20.
+- 14:20–14:46 UTC: a server-side outage (HTTP 503) rejected runs before any charge.
+- lq-c8r3 finished 8/20, so the c8 family stands at 48/80. More c8 tickets (c8r4–c8r6) are running.
+- cnn-v27, with the same rule as v26, finished 5/20 against v26's 11/20 an hour earlier. servo-fg2n finished 8/20.

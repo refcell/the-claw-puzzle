@@ -59,7 +59,8 @@ Most losses with good aim are **slips at lift or pushes at contact.** None of th
   job ahead.
 - **Network and payment incidents** (late day two). DNS failures, a connection-reset outage and a few rejected
   or stale payments stopped several runners. Each was reconciled against the quote status and the public job feed,
-  and none caused a charge. The runners now retry network errors that happen before any payment challenge.
+  and none caused a charge. On day three a server-side auth outage (HTTP 503, 14:20–14:46 UTC) rejected
+  runs before any charge. The runners now retry network errors that happen before any payment challenge.
 - **Camera gating had low fidelity.** By the time a gated job ran, jobs queued ahead had often moved the capsule.
 - **Agent sessions crashed** on oversized session logs (a single 450 KB line). They were replaced by fresh
   sessions that resumed from notes.

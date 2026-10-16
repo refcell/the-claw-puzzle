@@ -60,3 +60,6 @@
   5xx errors before payment are now treated as retryable.
 - 18:45 UTC: an audit of the streak-gated session found the gate open in only 2% of 8 hours of camera samples.
 - 22:00 UTC: the puzzle API was still down. Our last paid run was at 18:21 UTC.
+- 22:30 UTC: the API came back. All sessions reconciled their outage-period quotes, and none were double-charged.
+- Results finishing after the outage: v3c-fl1r2 10/20 (the third hp-fl1 copy at exactly 10/20), hp-fl9 9/20,
+  servo-fl8r 7/20 and cnn-v28 9/20. lq-c8r7 and c8r8 were uploaded. About 150 runs were paid in the first half hour back.

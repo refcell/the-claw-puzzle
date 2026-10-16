@@ -11,13 +11,13 @@ failed, and what we learned about the machine. It's updated as the work goes on.
 
 ## Where things stand
 
-_As of Oct 16, 22:00 UTC (last board read at 18:15; the puzzle API has been failing on and off since about 16:20 UTC and fully down since about 18:30, and our last paid run was at 18:21). Public board: publicqi #1 at 18/20 (90%), **us #2 at 16/20 (80%)**, virtual_jpeg #3 at 15/20, then brockjelmore 9/22 and ethanmlam 13/42._
+_As of Oct 16, 23:00 UTC (the puzzle API came back at about 22:30 after a six-hour outage). Public board: publicqi #1 at 18/20 (90%), **us #2 at 16/20 (80%)**, virtual_jpeg #3 at 15/20, then brockjelmore 9/22 and ethanmlam 13/42._
 
 | | |
 |---|---|
 | Best qualifying model | `8ad9b56a` ("lq-c8r2"), **16/20 = 80%, #2** behind 18/20. Earlier board entry: cnn-v2 at 12/20 |
 | Earlier peak | #1 at 60% on day one; `8fb77333` (hp-fg2) briefly held #3 at 13/21 |
-| Paid runs so far | about 2,450 across 80+ models, about $54 in entry fees |
+| Paid runs so far | about 2,600 across 90+ models, about $61 in entry fees |
 | Current bet | more lq-c8 re-roll tickets (aiming for ≥ 18/20), hp-c8s (c8 + sticky-spot dislodge), hp-fl1 copies and hp-fl9 |
 | Net money | roughly break-even: prizes and training-data sales offset entry fees |
 

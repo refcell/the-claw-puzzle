@@ -61,7 +61,9 @@ Most losses with good aim are **slips at lift or pushes at contact.** None of th
   or stale payments stopped several runners. Each was reconciled against the quote status and the public job feed,
   and none caused a charge. On day three a server-side auth outage (HTTP 503, 14:20–14:46 UTC) rejected
   runs before any charge. A longer outage from about 16:40 UTC (auth errors, leaderboard timeouts) outlasted the
-  runners' retry loops. They were restarted under a wrapper that reruns them until each batch reaches 20. The runners now retry network errors that happen before any payment challenge.
+  runners' retry loops. They were restarted under a wrapper that reruns them until each batch reaches 20. The outage lasted until about
+  22:30 UTC. One quote sat in "payment pending confirmation" for about four hours. That session paused its runners
+  and polled the quote until it settled (paid, and a win), so there was no double payment. The runners now retry network errors that happen before any payment challenge.
 - **Camera gating had low fidelity.** By the time a gated job ran, jobs queued ahead had often moved the capsule.
 - **Agent sessions crashed** on oversized session logs (a single 450 KB line). They were replaced by fresh
   sessions that resumed from notes.

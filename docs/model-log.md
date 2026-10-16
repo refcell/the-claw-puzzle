@@ -9,6 +9,10 @@ O/E is the state-adjusted score explained in [06](06-statistics.md).
 | `00384ad6` | lq-c8r3 | c8 re-roll ticket | 8/20 | — |
 | `e72e7b93` | lq-c8r4 | c8 re-roll ticket | 12/20 (c8 family 60/100) | — |
 | `ad7d691a` | intel-fl1r1 | hp-fl1 copy | 10/20 (fresh 6/7, stuck 4/13) | — |
+| `00e5e767` | v3c-fl1r2 | hp-fl1 copy | 10/20 (fresh 6/8) | 1.55 |
+| `78a91c6e` | hp-fl9 | fl8 + orientation split at cx ≥ 87.5 | 9/20 | — |
+| `b04914c0` | servo-fl8r | hp-fl8 copy | 7/20 (fresh 7/17; fl8 pooled 16/40) | — |
+| `fd2a6e70` | cnn-v28 | v26-rule re-roll | 9/20 (v26 rule 25/60) | — |
 | `e9493ff3` | cnn-v27 | same rule as v26 | 5/20 (v26 got 11/20 an hour earlier) | — |
 | `e7e482d3` | servo-fg2n | fg2 aim + day ROI fix | 8/20 (fresh 5/16, stuck 3/4) | — |
 | `29e44590` | cnn-v26 | v2 + hard-zone bands | 11/20 (band classes 2/9) | — |
@@ -39,8 +43,9 @@ O/E is the state-adjusted score explained in [06](06-statistics.md).
 | `eaa9fd08` | cnn-v12 | colour map for the right zone, no pin | 0/20 (entirely in stuck states) | 0.00 |
 | servo cl2–cl4 | closed loop | servo on the claw | 0/4 | — |
 
-**Running now:** hp-fl10 (`398896ea`, fl8 with the sticky zone widened to cx 87.8–91.2, cy 82.5–88.2 at ey −3.5; queued after c8s), hp-c8s (`467a512f`, c8r2 + sticky dislodge), lq-c8r5 / c8r6 (`90a90907`, `759dbe34`),
-hp-fl9 (`78a91c6e`, fl8 + an orientation split at cx ≥ 87.5), servo-fl8r (`b04914c0`, fl8 copy) and the fl1 copy
-v3c-fl1r2 (`00e5e767`), and cnn-v28 (`fd2a6e70`, v26-rule re-roll).
+**Running now:** lq-c8r5 / c8r6 (`90a90907`, `759dbe34`; 8/18 and 10/18 at 22:56 UTC), with c8r7 / c8r8
+(`211b49b2`, `49dfb2cf`) queued behind them, hp-c8s (`467a512f`, c8r2 + sticky dislodge), hp-fl10 (`398896ea`, widened
+sticky zone), fl1 copies v3c-fl1r3 (`22e125af`) and intel-fl1r2 (`033691ce`), and cnn-v29 (`8982e52b`, v26 rule + the
+lq x shift).
 
 Most of the roughly 60 other models scored 2/20 to 9/20. They're summarised by idea in [05](05-failures.md).

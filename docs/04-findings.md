@@ -60,8 +60,9 @@ After an escape, the next run wins far more often than when the capsule stays pu
   across all players, 82 grabs won once, and standard aims (U 800–1000) move it less than 1 px. **Overshooting
   with U = 1400** (R unchanged) went 3 for 3 live: 1 win and 2 dislodges (7 px and 20 px). The old win rate was
   about 1%, so the rule costs nothing.
-- **Front-right corner** (about cx 92.6, cy 94.2): a normal far-right grab at R 1700 didn't reach it. The recipe
-  now uses R 2000, U 160. It's untested.
+- **Front-right corner** (about cx 92, cy 91–94): R 1700 didn't reach it, and a corner recipe of R 2000, U 160
+  landed about 8 rows in front of the capsule. The corner recipe was dropped, and far right now uses v2 depth with a
+  scaled R.
 - **Far-right manual grabs:** R 1700 only reaches about cx 88.9, so the recipe now uses R = max(1700, R_v2 + 80),
   capped at 2600.
 - **Deep back-right corner** (cx 88–90.3, cy 80–82): the back-right band data is mostly cy 82–86, so it doesn't cover

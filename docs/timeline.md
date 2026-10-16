@@ -49,3 +49,5 @@
 - 14:20–14:46 UTC: a server-side outage (HTTP 503) rejected runs before any charge.
 - lq-c8r3 finished 8/20, so the c8 family stands at 48/80. More c8 tickets (c8r4–c8r6) are running.
 - cnn-v27, with the same rule as v26, finished 5/20 against v26's 11/20 an hour earlier. servo-fg2n finished 8/20.
+- The streak-gated session dropped the streak requirement for clean good-zone frames (camera alone: 66% over 157).
+- hp built hp-c8s, which is c8r2 plus the sticky-spot dislodge. Play slowed to a handful of runs an hour.

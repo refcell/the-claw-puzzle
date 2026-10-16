@@ -26,6 +26,9 @@
 - Batches are never abandoned early.
 - **Re-roll tickets:** strong policies are re-uploaded with a tiny byte change (for example a 1e-4 constant or a
   1 ms hold difference) so they get a fresh 20-run draw. They're used for hp-fl1, lq-c8 and cnn-v2's rule.
+- The streak-gated session now also lets a clean good-zone frame through regardless of the streak (cx < 84,
+  cy 84–94.5, oy < 0.6, compact blob). In its history, the camera check alone won 104/157 = 66%, and adding the
+  streak gate gave 65%, so the streak gate added nothing on top of a clean camera frame.
 - The streak-gated session vetoes clean frames at 84 ≤ cx < 88 (43% win rate, n = 58) as well as far right. A
   stricter cx < 84 veto would be about 60% but would cost throughput.
 - The streak-gated session now opens a short window when the streak and camera allow a run but the queue is deep

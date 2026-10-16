@@ -94,6 +94,10 @@ Four finished 20-run draws of the same policy: **9/20, 15/20, 16/20, 8/20** (48/
 evening window (field about 25%), and the two strong batches ran on the morning of day three. See
 [06](06-statistics.md) for why best-of-several is an optimistic estimate.
 
+**hp-c8s** (`467a512f`) adds the sticky-spot overshoot (U = 1400) to lq-c8r2. It issues the same holds as c8r2 on
+980 of 1,043 recorded frames, and all 63 changes are at the sticky spot. There, c8's dead-zone pull lands at
+ey 0.75 (U ≈ 1065), below the U ≥ 1200 that has moved the capsule.
+
 ## Stack from late day two
 **hp-fl8** stacks the three parts with the best live evidence:
 - **hp-fl1** as the foundation: order-balanced pairs against fg2 went 14–6, with an adjusted lift of +0.21 per run

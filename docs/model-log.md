@@ -37,7 +37,7 @@ O/E is the state-adjusted score explained in [06](06-statistics.md).
 | `eaa9fd08` | cnn-v12 | colour map for the right zone, no pin | 0/20 (entirely in stuck states) | 0.00 |
 | servo cl2–cl4 | closed loop | servo on the claw | 0/4 | — |
 
-**Running now:** hp-c8s (`467a512f`, c8r2 + sticky dislodge), lq-c8r4 / c8r5 / c8r6 (`e72e7b93`, `90a90907`, `759dbe34`; c8r4 was 12/18 at 16:05 UTC),
+**Running now:** hp-fl10 (`398896ea`, fl8 with the sticky zone widened to cx 87.8–91.2, cy 82.5–88.2 at ey −3.5; queued after c8s), hp-c8s (`467a512f`, c8r2 + sticky dislodge), lq-c8r4 / c8r5 / c8r6 (`e72e7b93`, `90a90907`, `759dbe34`; c8r4 was 12/18 at 16:05 UTC),
 hp-fl9 (`78a91c6e`, fl8 + an orientation split at cx ≥ 87.5), servo-fl8r (`b04914c0`, fl8 copy), fl1 copies
 intel-fl1r1 (`ad7d691a`) and v3c-fl1r2 (`00e5e767`), and cnn-v28 (`fd2a6e70`, v26-rule re-roll).
 

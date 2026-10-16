@@ -60,6 +60,15 @@ After an escape, the next run wins far more often than when the capsule stays pu
   across all players, 82 grabs won once, and standard aims (U 800–1000) move it less than 1 px. **Overshooting
   with U = 1400** (R unchanged) went 3 for 3 live: 1 win and 2 dislodges (7 px and 20 px). The old win rate was
   about 1%, so the rule costs nothing.
+- **Widened sticky zone (census of 1,430 decoded recordings, 1.5 px cells).** Every one of the commonest stuck
+  cells is a front-green capsule in the near-right area: (88.5, 84) won 2/65, (90, 85.5) 0/56, (90, 84) 2/51,
+  (90, 87) 2/28 and (88.5, 82.5) 0/17. 75–90% of losses there leave the capsule unmoved. The original sticky zone
+  (cx ≤ 89.6, cy ≤ 84.8) misses the cx ≈ 90 / cy 85–88 cells. In the wider zone (cx 89.2–91.2, cy 83–88.2, n = 152):
+  - landing at or behind the capsule (ey < 1) moved it 9/15 and won 2/15
+  - ey ≥ 2 moved it 6/130 and won 1/130 (ey ≥ 4: 0/81)
+
+  Proposed rule for front-green, cx 87.8–91.2, cy 82.5–88.2: aim at ey ≈ −3.5, i.e.
+  `U = 61.54 · (101.56 + 3.5 − cy)`. Under this census, c8's dead-zone pull (ey 0.75) is borderline, since ey < 0 does better.
 - **Front-right corner** (about cx 92, cy 91–94): R 1700 didn't reach it, and a corner recipe of R 2000, U 160
   landed about 8 rows in front of the capsule. The corner recipe was dropped, and far right now uses v2 depth with a
   scaled R.

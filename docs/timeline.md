@@ -51,3 +51,5 @@
 - cnn-v27, with the same rule as v26, finished 5/20 against v26's 11/20 an hour earlier. servo-fg2n finished 8/20.
 - The streak-gated session dropped the streak requirement for clean good-zone frames (camera alone: 66% over 157).
 - hp built hp-c8s, which is c8r2 plus the sticky-spot dislodge. Play slowed to a handful of runs an hour.
+- 17:50 UTC: a census of 1,430 recordings showed the commonest stuck cells are all front-green near-right, and that
+  landing at or behind the capsule moves it far more often (9/15 vs 6/130). hp-fl10 tests a widened sticky zone.

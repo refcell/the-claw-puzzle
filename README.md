@@ -11,7 +11,7 @@ failed, and what we learned about the machine. It's updated as the work goes on.
 
 ## Where things stand
 
-_As of Oct 16, 19:45 UTC (last board read at 18:15; the board API is down during a server outage). Public board: publicqi #1 at 18/20 (90%), **us #2 at 16/20 (80%)**, virtual_jpeg #3 at 15/20, then brockjelmore 9/22 and ethanmlam 13/42._
+_As of Oct 16, 21:00 UTC (last board read at 18:15; the puzzle's servers have been down since about 16:20 UTC, and no runs have been paid since)._ Public board: publicqi #1 at 18/20 (90%), **us #2 at 16/20 (80%)**, virtual_jpeg #3 at 15/20, then brockjelmore 9/22 and ethanmlam 13/42._
 
 | | |
 |---|---|

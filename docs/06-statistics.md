@@ -45,10 +45,12 @@ A variant: compute the expectation from the outcomes of the ±60 neighbouring ru
 ## Re-roll tickets and selection
 The board counts each player's best model, so running several byte-distinct copies of one policy and keeping
 the best is a legitimate strategy. Its best batch overstates the policy's true rate, though.
-- lq-c8's eight finished identical copies went 9, 15, 16, 8, 12, 8, 10 and 15 out of 20. Pooled, that's 93/160 = 58%
-  (roughly 50–66%). Our 16/20 board entry is its best draw, so the board overstates the policy by about 20 points.
-- **Copies of one policy scatter widely.** Five hp-fl1 copies went 10, 10, 10, 8 and 7 out of 20 (45/100). Two hp-fl8
-  copies went 9 and 7 (16/40). The v26 rule went 11, 5, 9 and 7 out of 20 (32/80), and the v29 rule 19/60 over three batches.
+- lq-c8's ten finished identical copies went 9, 15, 16, 8, 12, 8, 10, 15, 10 and 10 out of 20. Pooled, that's
+  113/200 = 56.5% (roughly 50–63%). Our 16/20 board entry is its best draw, so the board overstates the policy by about
+  20 points.
+- **Copies of one policy scatter widely.** Seven hp-fl1 copies went 10, 10, 10, 8, 7, 13 and 7 out of 20 (65/140 = 46%). Two hp-fl8
+  copies went 9 and 7 (16/40). The v26 rule went 11, 5, 9 and 7 out of 20 (32/80), and the v29 rule 19/60 over three batches. Later re-rolls of
+  the two rules ranged from 3/20 to 12/20.
 - **Fresh vs stuck dominates:** an hp-fl1 copy went 10/20 raw, but 6/7 from fresh states and 4/13 from stuck ones.
 - **The same rule, an hour apart:** cnn-v26 and cnn-v27 have identical aim and went 11/20 and 5/20. A 20-run batch
   mostly measures its time window.

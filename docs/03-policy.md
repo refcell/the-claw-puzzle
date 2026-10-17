@@ -90,8 +90,8 @@ lq-c8 is lq-c5 with two hard-zone changes taken from the all-player band data:
 Full build parameters: `settle=11 pull=0.75 left=1 xfg5=1 xramp=1 nrback=1 middeep=0.5 nrfg=2.25 rfar=1750
 nrbey=3.25`. Re-roll tickets change only `left` to 1.0001, 1.0002 and so on, so the bytes differ.
 
-Eight finished 20-run draws of byte-distinct identical copies: **9, 15, 16, 8, 12, 8, 10 and 15 out of 20**
-(93/160 = 58%). The 9/20 batch ran in a weak
+Ten finished 20-run draws of byte-distinct identical copies: **9, 15, 16, 8, 12, 8, 10, 15, 10 and 10 out of 20**
+(113/200 = 56.5%). The 9/20 batch ran in a weak
 evening window (field about 25%), and the two strong batches ran on the morning of day three. See
 [06](06-statistics.md) for why best-of-several is an optimistic estimate.
 

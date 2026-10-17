@@ -98,3 +98,7 @@ session now pays only when no job is unfinished, or when the one running job is 
 ## 8. Night
 - Sunset to sunrise (about 01:35–14:15 UTC) roughly halves win rates for everyone.
 - Absolute colour thresholds misfire at night. Floor-relative features or a narrower ROI fix most of it.
+- Field win rate over the logged history: night 701/3,520 = 20%, day 1,293/4,416 = 29%. One leading public model has
+  gone 17/27 at night.
+- **Near-right, non-front-green capsules** (all players, 124 attempts, 31 wins): ey 3–4 won 14/32, against 5/35 for
+  ey < 3 and 12/57 for ey ≥ 4. ex −1.5..0 won 15/38, against 9/44 for ex < −1.5 and 6/42 for ex ≥ 0.5.

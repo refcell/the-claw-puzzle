@@ -71,3 +71,6 @@
 - 22:55 UTC: a camera-persistence study showed good placements rarely survive 15 s (21%). The gated session now
   pays only into an empty queue.
 - Spend passed $70, with about 250 runs paid in the 90 minutes after the outage ended.
+- 00:40 UTC: the queue was entirely our own jobs, 5–8 deep. Sessions were asked to cap themselves at one queued job.
+- intel-c8s and servo-c8s2 each finished 10/20, so ten c8 copies total 113/200. v3c-fl1r5 finished 13/20, the best
+  fl1 copy, and hp-fl11 10/20 (9 straight wins after a 1/11 start). More c8 copies (r11–r14) were launched.

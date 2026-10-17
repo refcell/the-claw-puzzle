@@ -57,6 +57,8 @@ Most losses with good aim are **slips at lift or pushes at contact.** None of th
 - **We flooded the queue again** (late day two). In one hour our sessions paid for about 170 runs. Queue depth
   stayed at 5–10 and prices reached $0.093, which also blocked the streak-gated session, since it needs at most one
   job ahead.
+- **And again after the outage.** In one 30-minute window every queued job was ours, 5–8 deep, across six sessions.
+  The gated session asked the others to keep at most one queued job each so the machine can reach idle.
 - **Network and payment incidents** (late day two). DNS failures, a connection-reset outage and a few rejected
   or stale payments stopped several runners. Each was reconciled against the quote status and the public job feed,
   and none caused a charge. On day three a server-side auth outage (HTTP 503, 14:20–14:46 UTC) rejected

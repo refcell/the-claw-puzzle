@@ -8,6 +8,10 @@ O/E is the state-adjusted score explained in [06](06-statistics.md).
 | `28823771` | lq-c8r | c8 re-roll ticket | 15/20 | — |
 | `00384ad6` | lq-c8r3 | c8 re-roll ticket | 8/20 | — |
 | `e72e7b93` | lq-c8r4 | c8 re-roll ticket | 12/20 (c8 family 60/100) | — |
+| `a8f0947d` | v3c-fl1r5 | hp-fl1 copy | 13/20 (best fl1 copy; others 7–10) | — |
+| `0206d773` | hp-fl11 | fl10 + non-front-green near-right at ey 3.25, ex +0.25 | 10/20 (fresh 8/16, best hp fresh rate) | — |
+| `76cfba21` / `f8bf5e27` | intel-c8s / servo-c8s2 | c8r2 copies | 10/20, 10/20 | — |
+| `6071a9eb` / `57029d2e` | cnn-v34 / v35 | v29 / v26 rule re-rolls | 12/20, 3/20 | — |
 | `f70db78d` | servo-c8s | c8r2 copy | 15/20 (fresh 8/11, stuck 7/8) | — |
 | `90a90907` / `759dbe34` | lq-c8r5 / c8r6 | c8 re-roll tickets | 8/20, 10/20 | — |
 | `467a512f` | hp-c8s | c8r2 + sticky dislodge | 9/20 (ran right after the outage) | — |
@@ -49,8 +53,7 @@ O/E is the state-adjusted score explained in [06](06-statistics.md).
 | `eaa9fd08` | cnn-v12 | colour map for the right zone, no pin | 0/20 (entirely in stuck states) | 0.00 |
 | servo cl2–cl4 | closed loop | servo on the claw | 0/4 | — |
 
-**Running now:** c8 copies lq-c8r7–c8r10 (`211b49b2`, `49dfb2cf`, `ec42f83e`, `bedae293`), servo-c8s2 (`f8bf5e27`) and
-intel-c8s (`76cfba21`). Also hp-fl11 (`0206d773`, fl10 + non-front-green near-right at ey 3.25, ex +0.25), the fl1 copy
-v3c-fl1r5 (`a8f0947d`), and alternating v26 / v29 rule re-rolls in the cnn session.
+**Running now:** c8 copies lq-c8r7–c8r14, servo-c8s3 (`1f9cbf54`) and intel-c8s2 (`4b02fa59`), hp-fl12 (`a52c02d9`, fl11 +
+near-right mid-row non-front-green at ey 3.5, ex −0.75), fl1 copies v3c-fl1r7 (`0e1f5089`), and cnn rule re-rolls.
 
 Most of the roughly 60 other models scored 2/20 to 9/20. They're summarised by idea in [05](05-failures.md).

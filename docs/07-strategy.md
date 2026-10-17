@@ -24,6 +24,8 @@
 - Since ties share rank and only the best model counts, sessions run every solid candidate to a full 20 runs.
 - **Target 14/20** to tie the current leaders.
 - Batches are never abandoned early.
+- **Portfolio foundation, day three evening:** fl1 copies fell to about 35–45% raw, so new tickets go to lq-c8r2 copies
+  (58% pooled).
 - **Re-roll tickets:** strong policies are re-uploaded with a tiny byte change (for example a 1e-4 constant or a
   1 ms hold difference) so they get a fresh 20-run draw. They're used for hp-fl1, lq-c8 and cnn-v2's rule.
 - The streak-gated session now also lets a clean good-zone frame through regardless of the streak (cx < 84,

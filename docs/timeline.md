@@ -63,3 +63,11 @@
 - 22:30 UTC: the API came back. All sessions reconciled their outage-period quotes, and none were double-charged.
 - Results finishing after the outage: v3c-fl1r2 10/20 (the third hp-fl1 copy at exactly 10/20), hp-fl9 9/20,
   servo-fl8r 7/20 and cnn-v28 9/20. lq-c8r7 and c8r8 were uploaded. About 150 runs were paid in the first half hour back.
+
+## Day 3 evening (Oct 16–17)
+- The portfolio switched to c8r2 copies. servo-c8s finished 15/20, and the lq tickets c8r5 and c8r6 finished 8 and
+  10. Eight identical c8 copies total 93/160 (58%).
+- hp-c8s (c8 + sticky dislodge) finished 9/20, hp-fl10 7/20, and fl1 copies 8/20 and 7/20.
+- 22:55 UTC: a camera-persistence study showed good placements rarely survive 15 s (21%). The gated session now
+  pays only into an empty queue.
+- Spend passed $70, with about 250 runs paid in the 90 minutes after the outage ended.

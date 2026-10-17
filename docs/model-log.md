@@ -8,6 +8,12 @@ O/E is the state-adjusted score explained in [06](06-statistics.md).
 | `28823771` | lq-c8r | c8 re-roll ticket | 15/20 | — |
 | `00384ad6` | lq-c8r3 | c8 re-roll ticket | 8/20 | — |
 | `e72e7b93` | lq-c8r4 | c8 re-roll ticket | 12/20 (c8 family 60/100) | — |
+| `f70db78d` | servo-c8s | c8r2 copy | 15/20 (fresh 8/11, stuck 7/8) | — |
+| `90a90907` / `759dbe34` | lq-c8r5 / c8r6 | c8 re-roll tickets | 8/20, 10/20 | — |
+| `467a512f` | hp-c8s | c8r2 + sticky dislodge | 9/20 (ran right after the outage) | — |
+| `398896ea` | hp-fl10 | fl8 + widened sticky zone | 7/20 (widened rule fired once) | — |
+| `22e125af` / `7dbbed38` | v3c-fl1r3 / fl1r4 | hp-fl1 copies | 8/20, 7/20 | 1.34, 1.10 |
+| `e095c5d7` / `0a5e98b7` | cnn-v31 / v32 | v26 / v29 rule re-rolls | 7/20, 5/20 | — |
 | `ad7d691a` | intel-fl1r1 | hp-fl1 copy | 10/20 (fresh 6/7, stuck 4/13) | — |
 | `00e5e767` | v3c-fl1r2 | hp-fl1 copy | 10/20 (fresh 6/8) | 1.55 |
 | `78a91c6e` | hp-fl9 | fl8 + orientation split at cx ≥ 87.5 | 9/20 | — |
@@ -43,9 +49,8 @@ O/E is the state-adjusted score explained in [06](06-statistics.md).
 | `eaa9fd08` | cnn-v12 | colour map for the right zone, no pin | 0/20 (entirely in stuck states) | 0.00 |
 | servo cl2–cl4 | closed loop | servo on the claw | 0/4 | — |
 
-**Running now:** lq-c8r5 / c8r6 (`90a90907`, `759dbe34`; 8/18 and 10/18 at 22:56 UTC), with c8r7 / c8r8
-(`211b49b2`, `49dfb2cf`) queued behind them, hp-c8s (`467a512f`, c8r2 + sticky dislodge), hp-fl10 (`398896ea`, widened
-sticky zone), fl1 copies v3c-fl1r3 (`22e125af`) and intel-fl1r2 (`033691ce`), and cnn-v29 (`8982e52b`, v26 rule + the
-lq x shift).
+**Running now:** c8 copies lq-c8r7–c8r10 (`211b49b2`, `49dfb2cf`, `ec42f83e`, `bedae293`), servo-c8s2 (`f8bf5e27`) and
+intel-c8s (`76cfba21`). Also hp-fl11 (`0206d773`, fl10 + non-front-green near-right at ey 3.25, ex +0.25), the fl1 copy
+v3c-fl1r5 (`a8f0947d`), and alternating v26 / v29 rule re-rolls in the cnn session.
 
 Most of the roughly 60 other models scored 2/20 to 9/20. They're summarised by idea in [05](05-failures.md).

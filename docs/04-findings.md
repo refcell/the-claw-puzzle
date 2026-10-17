@@ -88,6 +88,13 @@ After an escape, the next run wins far more often than when the capsule stays pu
 - **Front edge:** cy ≥ 94.5 is 0/6 across all model runs (U 125–254). Wins at cy 93.5–94.5 used U 171–269. That
   row may need less U than any calibration predicts; it's untested.
 
-## 7. Night
+## 7. Placements don't last
+A camera-based gate only helps if the capsule is still where the camera saw it when our run starts. Over 5,835
+monitor frames (good-zone rate 6.6%), P(still in the good zone | in it now) was 21% after 15 s, 14% after 30 s and
+10% after 60 or 120 s. These are single frames, so the figures include detector noise. With one job queued ahead,
+our run starts about 13 s later, and most of the camera's value is gone (about 0.21 · 0.66 + 0.79 · 0.42 ≈ 47%). The gated
+session now pays only when no job is unfinished, or when the one running job is at least 9 s old.
+
+## 8. Night
 - Sunset to sunrise (about 01:35–14:15 UTC) roughly halves win rates for everyone.
 - Absolute colour thresholds misfire at night. Floor-relative features or a narrower ROI fix most of it.

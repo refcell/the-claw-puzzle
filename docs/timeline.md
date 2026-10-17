@@ -89,3 +89,7 @@
 - Re-rolls stopped. The combined-v3 session's class audit found no fl1 class fix worth more than 1–2 points, and it
   stopped paying.
 - The c8 day/night split over 440 runs (53% vs 36%, z ≈ 2.6) moved remaining c8 copies to the day window.
+- 04:10 UTC: c8's night drop turned out to be entirely stuck-state runs (0/18 at night vs 47/97 by day). Stuck
+  capsules stay stuck when the queue is thin, which makes night a target for unsticking, not for copies.
+- Copy tickets kept finishing in the 4–13/20 range. intel's 14 c8 copies total 138/280. The cnn rule lines closed at
+  39% and 38%, and none of their batches reached 14/20.

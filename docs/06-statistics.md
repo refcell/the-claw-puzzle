@@ -45,17 +45,20 @@ A variant: compute the expectation from the outcomes of the ±60 neighbouring ru
 ## Re-roll tickets and selection
 The board counts each player's best model, so running several byte-distinct copies of one policy and keeping
 the best is a legitimate strategy. Its best batch overstates the policy's true rate, though.
-- **lq-c8 over its identical copies:** 265/540 = 49% at the lq cap. intel's eight copies later included a 16/20 (85/160). Our 16/20 board entry is its best
+- **lq-c8 over its identical copies:** 265/540 = 49% at the lq cap. intel's 14 copies total 138/280 (49%; fresh 55%, stuck 45%), with one 16/20. Our 16/20 board entry is its best
   draw, so the board overstates the policy by about 30 points. At a true 50%, P(≥ 14/20) is about 6% per copy, and P(≥ 18/20) about 0.02%.
 - **Day vs night, done properly.** An early "lighting-sensitive" claim counted only early copies, and day against dusk
   showed no difference (53% vs 47%). Splitting out true night (about 01:35–14:15 UTC) across 440 c8 runs does show a
-  gap: day 196/371 = 53%, night 25/69 = 36% (z ≈ 2.6). The detector's teal flag doesn't explain it, and the cause is
-  open (contact or lighting physics, or the mix of placements at night). c8 copies are now scheduled for the day window only.
+  gap: day 196/371 = 53%, night 25/69 = 36% (z ≈ 2.6). **The whole gap is in stuck states:** after a loss, c8 won 0/18 at night against 47/97 by day,
+  while fresh states barely moved (25/51 vs 149/274). Placement mix and perception were ruled out, since stuck states are
+  26% of runs in both windows. The likely reason is that by day other players' runs move a stuck capsule between ours,
+  while at night, with thin queues, it stays in the placement we already failed on. So c8 copies are scheduled for the
+  day window, and night value depends on unsticking.
 - **Expected best draw.** The expected best of about 20 copies at p = 0.53 is about 15/20. Our 15–17/20 results are
   what a portfolio of roughly 50% policies produces.
 - **Copies of one policy scatter widely.** Nine hp-fl1 copies went 10, 10, 10, 8, 7, 13, 7, 8 and 8 out of 20 (81/180 = 45%). Four hp-fl11 copies total 42/100. Two hp-fl8
-  copies went 9 and 7 (16/40). Every hard-placement build since fl8 (seven of them) has landed between 25% and 50%. The v26 rule went 11, 5, 9 and 7 out of 20 (32/80), and the v29 rule 19/60 over three batches. Later re-rolls of
-  the two rules ranged from 3/20 to 12/20.
+  copies went 9 and 7 (16/40). Every hard-placement build since fl8 (seven of them) has landed between 25% and 50%. Final cnn rule totals: the v26 rule 101/260 (39%) and the v29 rule 76/200 (38%). Batches ranged from 2/20 to 12/20, and
+  none reached 14. At this budget, the v2-family variants can't be told apart.
 - **Fresh vs stuck dominates:** an hp-fl1 copy went 10/20 raw, but 6/7 from fresh states and 4/13 from stuck ones.
 - **The same rule, an hour apart:** cnn-v26 and cnn-v27 have identical aim and went 11/20 and 5/20. A 20-run batch
   mostly measures its time window.

@@ -96,3 +96,5 @@
 - hp-c8sr10 (c8 + sticky dislodge) went 16/20, matching lq-c8r2. The gated qualifier max-g1 finished 12/20 = 60%,
   and a strict good-zone-only gated qualifier started.
 - servo-c8k went 12/20 at night, which narrowed c8's night gap to 42% vs 53% (z ≈ 1.8).
+- 06:31–06:41 UTC: servo-c8s7 went 4/20 at night, which widened c8's night gap again (38% vs 53%, z ≈ 2.8). c8 copies
+  went back to day-only. hp's c8 + sticky-dislodge line reached 180/360 over 18 copies.

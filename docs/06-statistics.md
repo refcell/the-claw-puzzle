@@ -45,11 +45,11 @@ A variant: compute the expectation from the outcomes of the ±60 neighbouring ru
 ## Re-roll tickets and selection
 The board counts each player's best model, so running several byte-distinct copies of one policy and keeping
 the best is a legitimate strategy. Its best batch overstates the policy's true rate, though.
-- **lq-c8 over its identical copies:** 265/540 = 49% at the lq cap. intel's 14 copies total 138/280 (49%; fresh 55%, stuck 45%), with one 16/20. hp's c8 + sticky-dislodge copies total 138/260 (53%) over 13 batches, also with one 16/20. Our 16/20 board entry is its best
+- **lq-c8 over its identical copies:** 265/540 = 49% at the lq cap. intel's 14 copies total 138/280 (49%; fresh 55%, stuck 45%), with one 16/20. hp's c8 + sticky-dislodge copies total 180/360 (50%) over 18 batches, ranging from 4/20 to 16/20. Our 16/20 board entry is its best
   draw, so the board overstates the policy by about 30 points. At a true 50%, P(≥ 14/20) is about 6% per copy, and P(≥ 18/20) about 0.02%.
 - **Day vs night, done properly.** An early "lighting-sensitive" claim counted only early copies, and day against dusk
   showed no difference (53% vs 47%). Splitting out true night (about 01:35–14:15 UTC) across 440 c8 runs does show a
-  gap: day 196/371 = 53%, night 25/69 = 36% (z ≈ 2.6), later 37/89 = 42% after one more night batch (z ≈ 1.8). **The whole gap is in stuck states:** after a loss, c8 won 0/18 at night against 47/97 by day,
+  gap: day 196/371 = 53%, night 25/69 = 36% (z ≈ 2.6), later 37/89 = 42% after a 12/20 night batch (z ≈ 1.8), then 41/109 = 38% after a 4/20 one (z ≈ 2.8). **The whole gap is in stuck states:** after a loss, c8 won 0/18 at night against 47/97 by day,
   while fresh states barely moved (25/51 vs 149/274). Placement mix and perception were ruled out, since stuck states are
   26% of runs in both windows. The likely reason is that by day other players' runs move a stuck capsule between ours,
   while at night, with thin queues, it stays in the placement we already failed on. So c8 copies are scheduled for the

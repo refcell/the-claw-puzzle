@@ -90,7 +90,7 @@ After an escape, the next run wins far more often than when the capsule stays pu
   row may need less U than any calibration predicts; it's untested.
 
 ## 7. Stuck capsules stay stuck at night
-Over 440 c8 runs, runs in stuck states won 0/18 at night against 47/97 by day (later 2/22 at night). Fresh states were similar (49% vs 54%).
+Over 440 c8 runs, runs in stuck states won 0/18 at night against 47/97 by day (later 3/30 at night; overall night 41/109 = 38% vs day 53%). Fresh states were similar (49% vs 54%).
 By day, other players' runs often move a stuck capsule between ours; at night the queue is thin, and nothing does.
 11 of those 18 night stuck losses were back-right capsules (cx 87–92, cy 81–85, mostly teal). At the sticky spot c8 won
 4/40 overall and 0/15 in stuck states, while the U = 1400 overshoot has dislodged 3 of 4. A c8 build with the overshoot

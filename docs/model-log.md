@@ -13,6 +13,7 @@ O/E is the state-adjusted score explained in [06](06-statistics.md).
 | `e137ee69` / `ea1ae43e` | hp-c8sr2 / c8sr3 | c8 + sticky dislodge | 12/20, 9/20 | — |
 | `d259b876` | hp-c8sr10 | c8 + sticky dislodge | 16/20 (fresh 11/14); line total 138/260 | — |
 | hp-c8sr13–sr17 | hp-c8sr13–sr17 | c8 + sticky dislodge | 9, 11, 11, 7, 4 (line total 180/360) | — |
+| hp-c8sr18–sr22 | hp-c8sr18–sr22 | c8 + sticky dislodge, at night | 4, 6, 3, 7, 3 (line total 203/460) | — |
 | `7735e97a` | servo-c8s7 | c8r2 copy | 4/20 at night (stuck 1/8) | — |
 | `993a052e` | servo-c8k | c8 + sticky dislodge | 12/20 at night (rule never fired) | — |
 | `a07a714c` | max-g1 | fg5, streak gate + camera vetoes, timed runs | **12/20 = 60%** gated | — |
@@ -74,8 +75,8 @@ O/E is the state-adjusted score explained in [06](06-statistics.md).
 | `eaa9fd08` | cnn-v12 | colour map for the right zone, no pin | 0/20 (entirely in stuck states) | 0.00 |
 | servo cl2–cl4 | closed loop | servo on the claw | 0/4 | — |
 
-**Status:** hp is still running c8 + sticky-dislodge copies (sr18). The max session started a second gated qualifier,
-max-e1-backdeep (`2f20b990`). Under a strict good-zone gate it plays exactly like fg5. servo-c8s8 (`7bf50a09`) is scheduled for the
+**Status:** hp is still running ungated c8 + sticky-dislodge copies at night (sr23). The max session started a second gated qualifier,
+max-e1-backdeep. That upload expired unused and was re-uploaded as max-g2-backdeep (`7f471aaa`). Under a strict good-zone gate it plays exactly like fg5. servo-c8s8 (`7bf50a09`) is scheduled for the
 day window. combined-v3 and learned-policy have stopped paying.
 
 Most of the roughly 60 other models scored 2/20 to 9/20. They're summarised by idea in [05](05-failures.md).

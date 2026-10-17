@@ -98,3 +98,5 @@
 - servo-c8k went 12/20 at night, which narrowed c8's night gap to 42% vs 53% (z ≈ 1.8).
 - 06:31–06:41 UTC: servo-c8s7 went 4/20 at night, which widened c8's night gap again (38% vs 53%, z ≈ 2.8). c8 copies
   went back to day-only. hp's c8 + sticky-dislodge line reached 180/360 over 18 copies.
+- 07:00–08:00 UTC: a machine-wide slump (all players about 25%). hp's night copies went 4, 6, 3, 7 and 3 out of 20, and its
+  line fell to 203/460. The gated qualifier's model expired unused and was re-uploaded.

@@ -66,6 +66,11 @@ Most losses with good aim are **slips at lift or pushes at contact.** None of th
   runners' retry loops. They were restarted under a wrapper that reruns them until each batch reaches 20. The outage lasted until about
   22:30 UTC. One quote sat in "payment pending confirmation" for about four hours. That session paused its runners
   and polled the quote until it settled (paid, and a win), so there was no double payment. The runners now retry network errors that happen before any payment challenge.
+- **Uploaded models expire.** A gated qualifier waited so long for a good frame that its model expired unused (a 409
+  at the payment step; nothing was paid). It had to be re-uploaded under a new ID.
+- **Night copies in a slump.** One session kept running ungated copies through the night. Five batches went
+  4, 6, 3, 7 and 3 out of 20 while the whole machine ran at about 25%, even though the day/night data had already argued
+  for day-only copies.
 - **Camera gating had low fidelity.** By the time a gated job ran, jobs queued ahead had often moved the capsule.
 - **Agent sessions crashed** on oversized session logs (a single 450 KB line). They were replaced by fresh
   sessions that resumed from notes.

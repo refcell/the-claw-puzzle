@@ -61,6 +61,9 @@ the best is a legitimate strategy. Its best batch overstates the policy's true r
   selection in the historical count and drift in the machine.
 - **#1 is probably luck on the same mechanism.** Across about 215 tickets of about 20 runs on the board, a simulation gives
   P(max ≥ 18/20) ≈ 5% even if every ticket were p = 0.5. The leaders' state-adjusted scores sit in that upper tail.
+- **Zone patches need state-subset judging.** A 10-run ungated screen of a patch that touches about 20% of states is
+  mostly a re-roll of the policy underneath. intel-c8bk3 ran 20 times and its patch fired 0 times. Patches should be
+  judged only on the states they touch, which needs 40+ runs to see about 8 such states.
 - **Expected best draw.** The expected best of about 20 copies at p = 0.53 is about 15/20. Our 15–17/20 results are
   what a portfolio of roughly 50% policies produces.
 - **Copies of one policy scatter widely.** Nine hp-fl1 copies went 10, 10, 10, 8, 7, 13, 7, 8 and 8 out of 20 (81/180 = 45%). Four hp-fl11 copies total 42/100. Two hp-fl8

@@ -18,6 +18,8 @@ O/E is the state-adjusted score explained in [06](06-statistics.md).
 | `993a052e` | servo-c8k | c8 + sticky dislodge | 12/20 at night (rule never fired) | — |
 | `2be1c29b` | hp-st1 | fl1 + stochastic aim on hard classes | 9/20 (6/10 at first); st1–st4 pooled 19/60 | 1.38 |
 | `7f1b5ca7` | intel-c8bk2 | c8 + far-right corner dislodge | 5/10 screen | 1.42 |
+| `3584bf8a` | intel-c8bk3 | c8bk2 + back-row x fix | 0/20 (patch never fired; one stuck capsule) | 0.00 |
+| `e270b2e2` | servo-dd1 | dynamic drop on back rows | 2/20 (rule 0/5) | 0.43 |
 | servo-ya1 | servo-ya1 | c8 + approach direction on back rows | 11/20 (rule 3/8) | 1.60 |
 | `d8d01a59` | max-g4 | fg5 + settle 12, g1 gate | 10/20 gated | — |
 | `0ef265c5` | max-g3 | fg5 + settle 11, g1 gate | 12/20 gated (three gated: 33/60) | — |
@@ -82,7 +84,7 @@ O/E is the state-adjusted score explained in [06](06-statistics.md).
 | `eaa9fd08` | cnn-v12 | colour map for the right zone, no pin | 0/20 (entirely in stuck states) | 0.00 |
 | servo cl2–cl4 | closed loop | servo on the claw | 0/4 | — |
 
-**Status (day four):** mechanism screens are running: intel-c8bk3 (`3584bf8a`, back-row x fix), servo-dd1 (`e270b2e2`,
-dynamic drop on back rows) and the gated max-g5-left04 (`5dab67aa`). hp has paused. Plain copy re-rolls have ended.
+**Status (day four):** the back-row x fix and the dynamic drop both screened null. The gated max-g5-left04 (`5dab67aa`) is
+finishing. hp and servo have stopped their lines. Plain copy re-rolls have ended.
 
 Most of the roughly 60 other models scored 2/20 to 9/20. They're summarised by idea in [05](05-failures.md).

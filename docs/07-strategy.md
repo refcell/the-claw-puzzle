@@ -24,12 +24,15 @@ each and judged by state-adjusted O/E against fl1 (about 1.6):
 Follow-ups aimed at back-row tails and contact physics:
 - **intel-c8bk2** (c8 + far-right corner dislodge at U 1275, R 1790): screened 5/10 (O/E 1.42), and the corner never
   came up. Its back-row depth was right, but landings were 1.2–2.1 px right, because lq's back-row rule overrides the x ramp.
-  **intel-c8bk3** adds a back-row x fix (offline median ex about 0, |ex| ≥ 1.5 on 1 of 61 frames).
+  **intel-c8bk3** adds a back-row x fix (offline median ex about 0, |ex| ≥ 1.5 on 1 of 61 frames). It went 0/20 in two
+  screens, but all 20 runs met the same lying teal capsule mid-right (cx 87.5–88.5, cy 85–87), where it plays exactly
+  like c8r2. The patch never fired, so the back-row hypothesis is still untested live.
 - **servo-ya1** (approach direction on back rows): 11/20. The rule fired 8 times and won 3, the same as c8's back-row
   rate (41%), and all 5 losses never lifted. Null.
 - **servo-dd1** (dynamic drop): on back-row capsules, drop 1 frame after the moves end (settle 1 instead of 11), so the
   claw descends while still swinging. Back-row losses are 40% pushes without lift at near-win aim, so this tests the
-  contact angle. Kill rule: 1 or fewer wins in the first 6 back-row encounters.
+  contact angle. Kill rule: 1 or fewer wins in the first 6 back-row encounters. **Result: 2/20 (O/E 0.43).** The
+  dynamic drop went 0/5, with no lift at all, and plain runs went 2/15 in a weak window. Null.
 - **Rare-class rules can't be screened.** In 70 hp runs the dead zone came up 0 times and the corner twice. hp
   recommends folding the dead-zone dislodge and corner rules into whatever policy the portfolio keeps, without a separate
   screen, and has paused paid runs.

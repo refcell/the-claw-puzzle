@@ -29,6 +29,8 @@ Most losses with good aim are **slips at lift or pushes at contact.** None of th
 - **The far-right R-band from all-player data** (9/54 won at R 1600–1800) went 0/7 live in the intel builds.
 - **Removing the deeper mid-field aim** (lq-c7): 6/20, so the deeper aim stayed.
 
+- **Dynamic drop on back rows** (servo-dd1): 2/20. The swinging-drop rule went 0/5 and never lifted a capsule.
+- **Back-row x fix** (intel-c8bk3): 0/20, all on one stuck capsule the patch never touched. A wasted screen, not a test.
 - **Stochastic aim on hard classes:** 19/60 over four hp builds, below fl1.
 - **Approach direction on back rows** (servo-ya1): the rule won 3/8, the same as baseline.
 - **A left aim bias from the leaders study:** the first estimate (+3–4 points) shrank to under 1 point once owner and

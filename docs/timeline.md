@@ -123,3 +123,5 @@
   real lever is back-row tails. The far-right back corner (0/20) got a dislodge recipe.
 - Screens: stochastic aim pooled 19/60 (null), approach direction null, corner dislodge 5/10 with landings too far right
   (fixed in c8bk3). Dynamic drop started. The gated max-g4 went 10/20, so settle length has no effect. hp paused.
+- 18:15–19:15 UTC: servo-dd1 (dynamic drop) finished 2/20, null. intel-c8bk3 went 0/20, all on one stuck mid-right
+  capsule its patch never touched. Play slowed to about 20 runs an hour.

@@ -8,6 +8,10 @@ O/E is the state-adjusted score explained in [06](06-statistics.md).
 | `28823771` | lq-c8r | c8 re-roll ticket | 15/20 | — |
 | `00384ad6` | lq-c8r3 | c8 re-roll ticket | 8/20 | — |
 | `e72e7b93` | lq-c8r4 | c8 re-roll ticket | 12/20 (c8 family 60/100) | — |
+| `606b2d85` | v3c-fl1r10 | exact hp-fl1 copy | **17/20 (#2 on the board)**; fl1 copies 97/200 | — |
+| `0a56e902` | intel-c8s8 | c8r2 copy | 16/20 (ties c8r2; intel's copies 85/160) | — |
+| `e137ee69` / `ea1ae43e` | hp-c8sr2 / c8sr3 | c8 + sticky dislodge | 12/20, 9/20 | — |
+| `eaad029f` / `4ec9c7e3` | cnn-v47 / v48 | v26-rule re-rolls | 8/20, 2/20 | — |
 | lq-c8r7–r16 | lq-c8r7–r16 | c8 copies | 11, 9, 7, 7, 10, 9, 10, 11, 9, 6 (lq total 167/340) | — |
 | `8b79d18b` | intel-c8s5 | c8r2 copy | 12/20 (intel's five copies 44/100) | — |
 | `124c12f1` | v3c-fl1n | fl1 + night x correction | 7/20 (all night; no edge) | 1.07 |
@@ -63,8 +67,7 @@ O/E is the state-adjusted score explained in [06](06-statistics.md).
 | `eaa9fd08` | cnn-v12 | colour map for the right zone, no pin | 0/20 (entirely in stuck states) | 0.00 |
 | servo cl2–cl4 | closed loop | servo on the claw | 0/4 | — |
 
-**Running now:** intel-c8s6 (`351489a0`), hp-c8sr (`b556c6b7`, c8 + sticky dislodge re-roll), v3c-fl1r9 (`718086d8`)
-and cnn rule re-rolls. The learned-policy session hit its $20 cap and stopped. servo paused new c8 copies until
-14:15 UTC.
+**Status:** re-rolls stopped after the 17/20. The combined-v3 session stopped paid runs (final spend $15.18). Already
+queued tickets (intel-c8s9, hp-c8sr4, cnn rule re-rolls) are finishing, and servo-c8s7 is scheduled for the day window.
 
 Most of the roughly 60 other models scored 2/20 to 9/20. They're summarised by idea in [05](05-failures.md).

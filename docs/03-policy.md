@@ -82,7 +82,16 @@ baseline of about 17–21%). Its predecessor-adjusted lift was +0.089 per run (z
 significant. A sister build, servo-cb1, went 6/20, and its branch classes won 1/12, in line with the band rates.
 Fixing all three hard zones on paper didn't produce a visible gain at n = 20.
 
-## lq-c8: our best board result (day three)
+## Our 17/20: an exact hp-fl1 copy
+`606b2d85` (v3c-fl1r10) is hp-fl1 rebuilt byte-distinct, and it went **17/20** at night (fresh 8/8, and 5/5 after three or more losses). Ten fl1 copies scored 97/200 = 48.5%
+in total, so the 17 is the upper tail of a roughly 48% policy, not a better one. See [Class rules](#class-rules-fg--fl-series-hard-placement-lab)
+for fl1's rules.
+
+An offline audit of 281 fl1-family runs by placement class: mid 85/160 (53%), back 17/40 (42%), back-right 8/32 (25%,
+against the field's 27/233), front-right 7/17, far-left 8/16, front 10/16. No aim bin has a resolvable edge, and the
+largest gain from fixing any one class is about 1–2 points overall.
+
+## lq-c8 (day three)
 lq-c8 is lq-c5 with two hard-zone changes taken from the all-player band data:
 - far-right R pin **1750** (was 2600)
 - near-right back corner at **ey 3.25** (was 2.75)

@@ -45,10 +45,14 @@ A variant: compute the expectation from the outcomes of the ±60 neighbouring ru
 ## Re-roll tickets and selection
 The board counts each player's best model, so running several byte-distinct copies of one policy and keeping
 the best is a legitimate strategy. Its best batch overstates the policy's true rate, though.
-- **lq-c8 over 27 identical copies: 265/540 = 49%.** Copies ranged from 3/20 to 16/20. Our 16/20 board entry is its best
+- **lq-c8 over its identical copies:** 265/540 = 49% at the lq cap. intel's eight copies later included a 16/20 (85/160). Our 16/20 board entry is its best
   draw, so the board overstates the policy by about 30 points. At a true 50%, P(≥ 14/20) is about 6% per copy, and P(≥ 18/20) about 0.02%.
-- **A lighting effect that was really selection bias.** An early note claimed c8 was sensitive to light. It counted only
-  the early copies. With all IDs, day is 53% (fresh 43/79) and dusk 47% (fresh 42/79), within noise of each other.
+- **Day vs night, done properly.** An early "lighting-sensitive" claim counted only early copies, and day against dusk
+  showed no difference (53% vs 47%). Splitting out true night (about 01:35–14:15 UTC) across 440 c8 runs does show a
+  gap: day 196/371 = 53%, night 25/69 = 36% (z ≈ 2.6). The detector's teal flag doesn't explain it, and the cause is
+  open (contact or lighting physics, or the mix of placements at night). c8 copies are now scheduled for the day window only.
+- **Expected best draw.** The expected best of about 20 copies at p = 0.53 is about 15/20. Our 15–17/20 results are
+  what a portfolio of roughly 50% policies produces.
 - **Copies of one policy scatter widely.** Nine hp-fl1 copies went 10, 10, 10, 8, 7, 13, 7, 8 and 8 out of 20 (81/180 = 45%). Four hp-fl11 copies total 42/100. Two hp-fl8
   copies went 9 and 7 (16/40). Every hard-placement build since fl8 (seven of them) has landed between 25% and 50%. The v26 rule went 11, 5, 9 and 7 out of 20 (32/80), and the v29 rule 19/60 over three batches. Later re-rolls of
   the two rules ranged from 3/20 to 12/20.

@@ -83,3 +83,9 @@
 - The night ran hot (field 38%), so the night-corrected fl1n (7/20) showed nothing, and the fl1 night pause was
   cancelled. fl11's family finished at 42/100, and hp switched to c8 + sticky-dislodge tickets. The gated session
   reached 3/6.
+- **03:08–03:35 UTC (at night): v3c-fl1r10 (`606b2d85`), an exact hp-fl1 copy, went 17/20 and moved us to 17/20 at #2.**
+  It won 8/8 fresh states and 5/5 runs after three or more losses (O/E 2.46).
+  intel-c8s8 finished 16/20 at 03:50. The fl1 copies total 97/200, so the 17 is a lottery hit.
+- Re-rolls stopped. The combined-v3 session's class audit found no fl1 class fix worth more than 1–2 points, and it
+  stopped paying.
+- The c8 day/night split over 440 runs (53% vs 36%, z ≈ 2.6) moved remaining c8 copies to the day window.

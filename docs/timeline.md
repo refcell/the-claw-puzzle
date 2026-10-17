@@ -106,3 +106,5 @@
 - 10:00–11:00 UTC: hp's night copies went 10, 3, 8, 11 and 7. Night total 138/400; line total 318/760.
 - 11:00–12:00 UTC: hp wrapped up its c8 + sticky line at 338/820 (41%) over 41 copies. It was about 55% before the
   06:10 slump. The second gated qualifier was at 4/13, and the gated good-zone path stands at 9/18 against a historical 66%.
+- 12:30–14:00 UTC: play nearly stopped. The strict gated qualifier max-g2 finished 9/20, worse than the streak-gated g1
+  (12/20), and the clean good-zone path stands at 14/25. A third gated model (settle 11) started.

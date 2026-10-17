@@ -35,6 +35,8 @@
   c8 copies at night.
 - **Portfolio foundation, day three evening:** fl1 copies fell to about 35–45% raw, so new tickets go to lq-c8r2 copies
   (58% pooled).
+- **Identical bytes get the same model ID.** A byte-identical re-upload deduplicates to the existing ID, so every
+  copy needs a real byte change.
 - **Re-roll tickets:** strong policies are re-uploaded with a tiny byte change (for example a 1e-4 constant or a
   1 ms hold difference) so they get a fresh 20-run draw. They're used for hp-fl1, lq-c8 and cnn-v2's rule.
 - The streak-gated session now also lets a clean good-zone frame through regardless of the streak (cx < 84,
@@ -46,7 +48,8 @@
 - **The gated qualifier finished 12/20 = 60%** (max-g1: fg5 with the streak gate, camera vetoes and timed runs). The field
   runs at about 27%, and our ungated copies at about 45–50%. The gated run took about a day of wall-clock time. The second
   gated qualifier drops the streak check. It runs only on a clean good-zone frame (cx < 84, cy 84–94.5, oy < 0.6,
-  compact) with a near-immediate start. The expected rate is about 66% (history 104/157). A loss slipped through on an unclean frame pair at cx 93.5,
+  compact) with a near-immediate start. The expected rate was about 66% (history 104/157), but it finished **9/20 = 45%** (max-g2), so the strict
+  gate did not beat the streak gate. A third gated model (max-g3, fg5 with settle 11) is running under the g1 gate. A loss slipped through on an unclean frame pair at cx 93.5,
   so a second veto now rejects unclean pairs when both frames are at cx ≥ 84.
 - The streak-gated session vetoes clean frames at 84 ≤ cx < 88 (43% win rate, n = 58) as well as far right. A
   stricter cx < 84 veto would be about 60% but would cost throughput.

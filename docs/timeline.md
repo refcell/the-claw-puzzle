@@ -117,5 +117,5 @@
 - 17:30 UTC: a study of the leaders' public recordings found they use the same open-loop plan, aim and settle as us.
   Nothing can act after the drop, and 60/66 losses are grip slips, more often when the claw lands right of the capsule.
   Three slip-reducing mechanisms went to screening.
-- hp-st1 (stochastic aim on hard classes) screened 6/10. servo ran three more day c8 copies, and the gated session
+- hp-st1 (stochastic aim on hard classes) screened 6/10. servo paid about 60 day-window runs, and the gated session
   continued with max-g4.

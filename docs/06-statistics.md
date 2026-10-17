@@ -45,8 +45,8 @@ A variant: compute the expectation from the outcomes of the ±60 neighbouring ru
 ## Re-roll tickets and selection
 The board counts each player's best model, so running several byte-distinct copies of one policy and keeping
 the best is a legitimate strategy. Its best batch overstates the policy's true rate, though.
-- **lq-c8 over its identical copies:** 265/540 = 49% at the lq cap. intel's 14 copies total 138/280 (49%; fresh 55%, stuck 45%), with one 16/20. hp's c8 + sticky-dislodge copies total 238/560 (42.5%) over 28 batches, ranging from 3/20 to 16/20. Its ten night
-  batches from 07:00 UTC went 58/200 = 29%, during a machine-wide slump (all players about 25% per half hour, against about 50%
+- **lq-c8 over its identical copies:** 265/540 = 49% at the lq cap. intel's 14 copies total 138/280 (49%; fresh 55%, stuck 45%), with one 16/20. hp's c8 + sticky-dislodge copies total 279/660 (42%) over 33 batches, ranging from 3/20 to 16/20. Its 15 night
+  batches from 07:00 UTC went 99/300 = 33%, including a 15/20 and a 3/20 an hour apart, during a machine-wide slump (all players about 25% per half hour, against about 50%
   a few hours earlier). Our 16/20 board entry is its best
   draw, so the board overstates the policy by about 30 points. At a true 50%, P(≥ 14/20) is about 6% per copy, and P(≥ 18/20) about 0.02%.
 - **Day vs night, done properly.** An early "lighting-sensitive" claim counted only early copies, and day against dusk

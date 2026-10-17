@@ -101,3 +101,5 @@
 - 07:00–08:00 UTC: a machine-wide slump (all players about 25%). hp's night copies went 4, 6, 3, 7 and 3 out of 20, and its
   line fell to 203/460. The gated qualifier's model expired unused and was re-uploaded.
 - 08:00–09:00 UTC: hp's night copies continued (10, 8, 6, 7, 4). Its night batches total 58/200 = 29%.
+- 09:00–10:00 UTC: hp's night copies went 3, 12, 15, 6 and 5. The 15/20 is the line's second-best batch, and its night
+  total is 99/300 = 33%.

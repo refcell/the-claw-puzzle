@@ -38,6 +38,10 @@ Most losses with good aim are **slips at lift or pushes at contact.** None of th
 - **A nearly identical policy pair:** cnn-v2 and fg2 issue the same holds on mid-field frames, yet their
   state-adjusted scores differed by 0.9. At 20 runs, rankings are mostly noise.
 
+- **Census-backed rules that didn't move outcomes.** Rules with solid all-player support (for example, near-right at
+  ey 3–4) never produced a measurable change in 20-run results. Machine state dominates short-run variance, and copy
+  re-rolls of the strongest policy produced the leaderboard-level results.
+
 ## Methodology mistakes
 - **Re-rolling and abandoning IDs early.** Re-uploading the same policy under fresh IDs and dropping each after a
   bad start burned money and taught nothing. It was banned for a while. It was later re-allowed only as a
@@ -68,8 +72,8 @@ Most losses with good aim are **slips at lift or pushes at contact.** None of th
   and polled the quote until it settled (paid, and a win), so there was no double payment. The runners now retry network errors that happen before any payment challenge.
 - **Uploaded models expire.** A gated qualifier waited so long for a good frame that its model expired unused (a 409
   at the payment step; nothing was paid). It had to be re-uploaded under a new ID.
-- **Night copies in a slump.** One session kept running ungated copies through the night. Twenty batches went
-  138/400 = 34.5% while the whole machine ran at about 25%, even though the day/night data had already argued
+- **Night copies in a slump.** One session kept running ungated copies through the night. 23 batches went
+  158/460 = 34% while the whole machine ran at about 25%, even though the day/night data had already argued
   for day-only copies.
 - **Camera gating had low fidelity.** By the time a gated job ran, jobs queued ahead had often moved the capsule.
 - **Agent sessions crashed** on oversized session logs (a single 450 KB line). They were replaced by fresh

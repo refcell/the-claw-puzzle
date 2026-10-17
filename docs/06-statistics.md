@@ -45,8 +45,8 @@ A variant: compute the expectation from the outcomes of the ±60 neighbouring ru
 ## Re-roll tickets and selection
 The board counts each player's best model, so running several byte-distinct copies of one policy and keeping
 the best is a legitimate strategy. Its best batch overstates the policy's true rate, though.
-- **lq-c8 over its identical copies:** 265/540 = 49% at the lq cap. intel's 14 copies total 138/280 (49%; fresh 55%, stuck 45%), with one 16/20. hp's c8 + sticky-dislodge copies total 318/760 (42%) over 38 batches, ranging from 3/20 to 16/20. Its 20 night
-  batches from 07:00 UTC went 138/400 = 34.5%, including a 15/20 and a 3/20 an hour apart, during a machine-wide slump (all players about 25% per half hour, against about 50%
+- **lq-c8 over its identical copies:** 265/540 = 49% at the lq cap. intel's 14 copies total 138/280 (49%; fresh 55%, stuck 45%), with one 16/20. hp's c8 + sticky-dislodge copies total 338/820 (41%) over 41 batches, ranging from 2/20 to 16/20. It was about 55% before the machine-wide
+  slump that began around 06:10 UTC. Its 23 night batches from 07:00 UTC went 158/460 = 34%, including a 15/20 and a 3/20 an hour apart, during a machine-wide slump (all players about 25% per half hour, against about 50%
   a few hours earlier). Our 16/20 board entry is its best
   draw, so the board overstates the policy by about 30 points. At a true 50%, P(≥ 14/20) is about 6% per copy, and P(≥ 18/20) about 0.02%.
 - **Day vs night, done properly.** An early "lighting-sensitive" claim counted only early copies, and day against dusk
@@ -56,6 +56,9 @@ the best is a legitimate strategy. Its best batch overstates the policy's true r
   26% of runs in both windows. The likely reason is that by day other players' runs move a stuck capsule between ours,
   while at night, with thin queues, it stays in the placement we already failed on. So c8 copies are scheduled for the
   day window, and night value depends on unsticking.
+- **The gated qualifier's history was optimistic.** Clean good-zone frames had won 104/157 = 66% in the history, but
+  the two gated qualifiers went 9/18 = 50% on that path. Replays show the policy isn't the cause. The likely reasons are
+  selection in the historical count and drift in the machine.
 - **Expected best draw.** The expected best of about 20 copies at p = 0.53 is about 15/20. Our 15–17/20 results are
   what a portfolio of roughly 50% policies produces.
 - **Copies of one policy scatter widely.** Nine hp-fl1 copies went 10, 10, 10, 8, 7, 13, 7, 8 and 8 out of 20 (81/180 = 45%). Four hp-fl11 copies total 42/100. Two hp-fl8

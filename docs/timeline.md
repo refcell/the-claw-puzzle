@@ -100,3 +100,4 @@
   went back to day-only. hp's c8 + sticky-dislodge line reached 180/360 over 18 copies.
 - 07:00–08:00 UTC: a machine-wide slump (all players about 25%). hp's night copies went 4, 6, 3, 7 and 3 out of 20, and its
   line fell to 203/460. The gated qualifier's model expired unused and was re-uploaded.
+- 08:00–09:00 UTC: hp's night copies continued (10, 8, 6, 7, 4). Its night batches total 58/200 = 29%.

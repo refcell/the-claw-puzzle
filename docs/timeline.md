@@ -103,3 +103,4 @@
 - 08:00–09:00 UTC: hp's night copies continued (10, 8, 6, 7, 4). Its night batches total 58/200 = 29%.
 - 09:00–10:00 UTC: hp's night copies went 3, 12, 15, 6 and 5. The 15/20 is the line's second-best batch, and its night
   total is 99/300 = 33%.
+- 10:00–11:00 UTC: hp's night copies went 10, 3, 8, 11 and 7. Night total 138/400; line total 318/760.

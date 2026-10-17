@@ -68,8 +68,8 @@ Most losses with good aim are **slips at lift or pushes at contact.** None of th
   and polled the quote until it settled (paid, and a win), so there was no double payment. The runners now retry network errors that happen before any payment challenge.
 - **Uploaded models expire.** A gated qualifier waited so long for a good frame that its model expired unused (a 409
   at the payment step; nothing was paid). It had to be re-uploaded under a new ID.
-- **Night copies in a slump.** One session kept running ungated copies through the night. Fifteen batches went
-  99/300 = 33% while the whole machine ran at about 25%, even though the day/night data had already argued
+- **Night copies in a slump.** One session kept running ungated copies through the night. Twenty batches went
+  138/400 = 34.5% while the whole machine ran at about 25%, even though the day/night data had already argued
   for day-only copies.
 - **Camera gating had low fidelity.** By the time a gated job ran, jobs queued ahead had often moved the capsule.
 - **Agent sessions crashed** on oversized session logs (a single 450 KB line). They were replaced by fresh

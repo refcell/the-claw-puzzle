@@ -43,8 +43,8 @@
 - **The gate rarely opens.** Over 8 hours (1,356 camera samples), the capsule sat in a vetoed zone 82% of the time.
   All gate conditions held in only 29 samples (2%), and every one of those was a good-zone frame. Strict gating
   buys a higher per-run rate at the cost of very few runs.
-- **The gated qualifier finished 12/20 = 60%** (max-g1: fg5 with the streak gate, camera vetoes and timed runs). Ungated
-  fg5 runs at about 26%, so gating more than doubled the rate, but it took about a day of wall-clock time. The second
+- **The gated qualifier finished 12/20 = 60%** (max-g1: fg5 with the streak gate, camera vetoes and timed runs). The field
+  runs at about 27%, and our ungated copies at about 45–50%. The gated run took about a day of wall-clock time. The second
   gated qualifier drops the streak check. It runs only on a clean good-zone frame (cx < 84, cy 84–94.5, oy < 0.6,
   compact) with a near-immediate start. The expected rate is about 66% (history 104/157). A loss slipped through on an unclean frame pair at cx 93.5,
   so a second veto now rejects unclean pairs when both frames are at cx ≥ 84.

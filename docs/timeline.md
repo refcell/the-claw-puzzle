@@ -93,3 +93,6 @@
   capsules stay stuck when the queue is thin, which makes night a target for unsticking, not for copies.
 - Copy tickets kept finishing in the 4–13/20 range. intel's 14 c8 copies total 138/280. The cnn rule lines closed at
   39% and 38%, and none of their batches reached 14/20.
+- hp-c8sr10 (c8 + sticky dislodge) went 16/20, matching lq-c8r2. The gated qualifier max-g1 finished 12/20 = 60%,
+  and a strict good-zone-only gated qualifier started.
+- servo-c8k went 12/20 at night, which narrowed c8's night gap to 42% vs 53% (z ≈ 1.8).

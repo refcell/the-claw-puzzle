@@ -46,6 +46,7 @@ mid 38%, back 23%, front 15%, front-green 14%, far right 7% (n = 426).
 | Dead zone, front-green | **ey < 2 (shallow)**: 3/29 won | ey ≥ 2: 0/180 |
 | Back-right (cx 86–90.5, cy < 86) | **ey 3–4**: 22/85, or ey 1–2: 8/41 | ey ≥ 4: 9/196 |
 | Far right (cx ≥ 90.5) | **R 1600–1800**: 9/54 won, 62% escape | R ≥ 2400: 4/50; R < 1600: 0/17 |
+| Near-right, not front-green (124 attempts) | **ey 3–4**: 14/32; ex −1.5..0: 15/38 | ey < 3: 5/35; ex ≥ 0.5: 6/42 |
 
 ## 5. Unstick recipes (for setting up the next run)
 Escapes by zone for losing grabs:
@@ -100,5 +101,3 @@ session now pays only when no job is unfinished, or when the one running job is 
 - Absolute colour thresholds misfire at night. Floor-relative features or a narrower ROI fix most of it.
 - Field win rate over the logged history: night 701/3,520 = 20%, day 1,293/4,416 = 29%. One leading public model has
   gone 17/27 at night.
-- **Near-right, non-front-green capsules** (all players, 124 attempts, 31 wins): ey 3–4 won 14/32, against 5/35 for
-  ey < 3 and 12/57 for ey ≥ 4. ex −1.5..0 won 15/38, against 9/44 for ex < −1.5 and 6/42 for ex ≥ 0.5.

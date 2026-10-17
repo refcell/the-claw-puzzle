@@ -129,8 +129,18 @@ We studied the #1 model (18/20) through the 5 of its 20 recordings that were eve
   falls. Only 3 were clean misses.
 - **Landing right of the capsule predicts slips.** Among lifted runs (excluding far right), ex ≥ +0.5 px kept 6/20
   (30%), against 67/105 (64%) for ex < +0.5.
+- **Correction: the effect is small overall.** A logistic regression on 2,361 simple R/U runs (all players,
+  non-front-green; fixed effects for 36 owners, cx/cy bins and a fresh flag) gives −0.23 ± 0.10 logit per px for ex > 0
+  (z −2.2) and +0.13 ± 0.07 per px for ex < 0 (z 1.8; landing far left also hurts). A −0.4 px left bias is worth under
+  1 point of win rate. The real lever is the tails, concentrated in the back rows (cy < 84, n = 566).
 
-## 11. Near-right back is a reach limit
+## 11. Far-right back corner absorbs runs
+At cx ≥ 90.3, cy < 83.5 (not front-green), every recorded attempt lost: 0/20. 18 of them left the capsule in place
+(< 1.2 px; R 1800–2000, U 980–1165). Only U ≈ 1200 at R ≈ 1790 moved it (2/2), pulling it 8–10 px forward into open field.
+In one five-minute stretch it absorbed 20 straight runs from two sessions. The dislodge recipe is U 1250–1300 at
+R 1790 (landing just behind it). That run is lost anyway, but the next run gets a mid-field state.
+
+## 12. Near-right back is a reach limit
 In 558 c8 runs with the landing measured from video, capsules at cx 88–90.5, cy ≤ 84 get a measured claw landing of about
 lx 85.8–86.0 for every R from 1650 to 1900+ (dx −2.9 to −4.3), and they win 4/63. More R doesn't move the claw further
 right, so aim can't center these capsules. Only contact tactics (dislodge, push or rake) can help. In mid field, the

@@ -119,3 +119,7 @@
   Three slip-reducing mechanisms went to screening.
 - hp-st1 (stochastic aim on hard classes) screened 6/10. servo paid about 60 day-window runs, and the gated session
   continued with max-g4.
+- 17:20 UTC: the leaders study was corrected. A regression on 2,361 runs puts the left-bias lever under 1 point, and the
+  real lever is back-row tails. The far-right back corner (0/20) got a dislodge recipe.
+- Screens: stochastic aim pooled 19/60 (null), approach direction null, corner dislodge 5/10 with landings too far right
+  (fixed in c8bk3). Dynamic drop started. The gated max-g4 went 10/20, so settle length has no effect. hp paused.

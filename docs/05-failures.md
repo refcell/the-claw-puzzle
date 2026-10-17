@@ -29,6 +29,11 @@ Most losses with good aim are **slips at lift or pushes at contact.** None of th
 - **The far-right R-band from all-player data** (9/54 won at R 1600–1800) went 0/7 live in the intel builds.
 - **Removing the deeper mid-field aim** (lq-c7): 6/20, so the deeper aim stayed.
 
+- **Stochastic aim on hard classes:** 19/60 over four hp builds, below fl1.
+- **Approach direction on back rows** (servo-ya1): the rule won 3/8, the same as baseline.
+- **A left aim bias from the leaders study:** the first estimate (+3–4 points) shrank to under 1 point once owner and
+  position were controlled for.
+
 ## Analysis tools that misled us
 - **A learned offline evaluator** (kernel nearest neighbours over about 900 day recordings).
   - Spearman ρ against live win rate: 0.19 in-sample, 0.04 when leaving each model out, −0.35 when also leaving

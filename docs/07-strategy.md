@@ -17,12 +17,26 @@
 Since the leaders run the same plan, three cheap mechanisms aimed at grip slips are being screened for about 10 runs
 each and judged by state-adjusted O/E against fl1 (about 1.6):
 1. A closed-loop "never drop right of the capsule" check after the settle, using a claw-tip tracker.
-2. A −0.4 px left aim bias (about −30 ms of R) on capsules with cx < 90.5, matching the #3 model's median.
+2. A −0.4 px left aim bias (about −30 ms of R) on capsules with cx < 90.5, matching the #3 model's median. The regression
+   later put this at under 1 point, so it's effectively another copy ticket (max-g5 is running it).
 3. Keep the back-row band at ey 2.5–3.5 and avoid ey ≥ 3.5.
 
-hp is also screening **stochastic aim** on the hard classes (cx 88.5–91.2, cy 83–88.2): jitter in place of a single
-fixed aim. hp-st1 went 6/10 (O/E 2.09). Its one flaw was a stuck back capsule just outside the band, so hp-st2 widens
-the band to cx ≥ 86 (census class 86–90.5: ey 3–4 won 14/26).
+Follow-ups aimed at back-row tails and contact physics:
+- **intel-c8bk2** (c8 + far-right corner dislodge at U 1275, R 1790): screened 5/10 (O/E 1.42), and the corner never
+  came up. Its back-row depth was right, but landings were 1.2–2.1 px right, because lq's back-row rule overrides the x ramp.
+  **intel-c8bk3** adds a back-row x fix (offline median ex about 0, |ex| ≥ 1.5 on 1 of 61 frames).
+- **servo-ya1** (approach direction on back rows): 11/20. The rule fired 8 times and won 3, the same as c8's back-row
+  rate (41%), and all 5 losses never lifted. Null.
+- **servo-dd1** (dynamic drop): on back-row capsules, drop 1 frame after the moves end (settle 1 instead of 11), so the
+  claw descends while still swinging. Back-row losses are 40% pushes without lift at near-win aim, so this tests the
+  contact angle. Kill rule: 1 or fewer wins in the first 6 back-row encounters.
+- **Rare-class rules can't be screened.** In 70 hp runs the dead zone came up 0 times and the corner twice. hp
+  recommends folding the dead-zone dislodge and corner rules into whatever policy the portfolio keeps, without a separate
+  screen, and has paused paid runs.
+
+hp also screened **stochastic aim** on the hard classes (cx 88.5–91.2, cy 83–88.2): jitter in place of a single
+fixed aim. st1 went 9/20 (O/E 1.38) after a 6/10 start, st2 5/10, st3 0/10 (all on one stuck corner capsule) and st4 5/20.
+Pooled 19/60, below fl1. Null.
 
 ## Manual unsticking
 - Manual games don't count for the leaderboard, but they're allowed and pay prizes.
@@ -61,7 +75,7 @@ the band to cx ≥ 86 (census class 86–90.5: ey 3–4 won 14/26).
   gated qualifier drops the streak check. It runs only on a clean good-zone frame (cx < 84, cy 84–94.5, oy < 0.6,
   compact) with a near-immediate start. The expected rate was about 66% (history 104/157), but it finished **9/20 = 45%** (max-g2), so the strict
   gate did not beat the streak gate. A third gated model (max-g3, fg5 with settle 11, g1 gate) went **12/20**. The three gated qualifiers total
-  **33/60 = 55%**: good-zone passes 17/28 = 61%, other passes 16/32 = 50%. A fourth (settle 12) is running. A loss slipped through on an unclean frame pair at cx 93.5,
+  **33/60 = 55%**: good-zone passes 17/28 = 61%, other passes 16/32 = 50%. A fourth (settle 12) went 10/20, so settle length shows no effect. Four gated qualifiers: **43/80 = 54%**. A loss slipped through on an unclean frame pair at cx 93.5,
   so a second veto now rejects unclean pairs when both frames are at cx ≥ 84.
 - The streak-gated session vetoes clean frames at 84 ≤ cx < 88 (43% win rate, n = 58) as well as far right. A
   stricter cx < 84 veto would be about 60% but would cost throughput.

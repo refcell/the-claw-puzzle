@@ -78,3 +78,8 @@
   which was selection bias. The board's 16/20 is c8's luckiest draw.
 - Copies kept finishing at 8–12/20: servo-c8s3 11, servo-c8s4 10 and intel-c8s3 12, with fl1 copies at 7 and 8.
   hp-fl12 finished 5/20. The fl1 line paused day copies for the night and launched a night-corrected ticket.
+- 02:13 UTC: the learned-policy session reached its $20 cap and stopped. Its final c8 tally was 167/340 (49%) over 17
+  batches. With the servo and intel copies, it's 265/540.
+- The night ran hot (field 38%), so the night-corrected fl1n (7/20) showed nothing, and the fl1 night pause was
+  cancelled. fl11's family finished at 42/100, and hp switched to c8 + sticky-dislodge tickets. The gated session
+  reached 3/6.

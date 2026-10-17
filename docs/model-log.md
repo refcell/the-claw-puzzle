@@ -8,6 +8,12 @@ O/E is the state-adjusted score explained in [06](06-statistics.md).
 | `28823771` | lq-c8r | c8 re-roll ticket | 15/20 | — |
 | `00384ad6` | lq-c8r3 | c8 re-roll ticket | 8/20 | — |
 | `e72e7b93` | lq-c8r4 | c8 re-roll ticket | 12/20 (c8 family 60/100) | — |
+| lq-c8r7–r16 | lq-c8r7–r16 | c8 copies | 11, 9, 7, 7, 10, 9, 10, 11, 9, 6 (lq total 167/340) | — |
+| `8b79d18b` | intel-c8s5 | c8r2 copy | 12/20 (intel's five copies 44/100) | — |
+| `124c12f1` | v3c-fl1n | fl1 + night x correction | 7/20 (all night; no edge) | 1.07 |
+| `d42642f4` | v3c-fl1r8 | hp-fl1 copy | 8/20 | 1.21 |
+| `5501bba8` | hp-fl11r4 | fl11 copy | 9/20 (fl11 family 42/100) | — |
+| `f1518cfa` / `51f01e46` | cnn-v41 / v42 | v26 / v29 rule re-rolls | 11/20, 6/20 | — |
 | `1f9cbf54` / `45379928` | servo-c8s3 / c8s4 | c8r2 copies | 11/20, 10/20 | — |
 | `f5294739` | intel-c8s3 | c8r2 copy | 12/20 (at night) | — |
 | `a52c02d9` | hp-fl12 | fl11 + near-right mid-row non-front-green at ey 3.5, ex −0.75 | 5/20 (the new zone fired 4×: 1 win) | — |
@@ -57,8 +63,8 @@ O/E is the state-adjusted score explained in [06](06-statistics.md).
 | `eaa9fd08` | cnn-v12 | colour map for the right zone, no pin | 0/20 (entirely in stuck states) | 0.00 |
 | servo cl2–cl4 | closed loop | servo on the claw | 0/4 | — |
 
-**Running now:** c8 copies (lq-c8r13–c8r16, servo-c8s5 `c746bb23`, intel-c8s4), hp-fl11r2 (`3805fb7e`), cnn rule
-re-rolls, and the night ticket v3c-fl1n (`124c12f1`, fl1 with a night-only x correction). New fl1 day copies are
-paused until morning.
+**Running now:** intel-c8s6 (`351489a0`), hp-c8sr (`b556c6b7`, c8 + sticky dislodge re-roll), v3c-fl1r9 (`718086d8`)
+and cnn rule re-rolls. The learned-policy session hit its $20 cap and stopped. servo paused new c8 copies until
+14:15 UTC.
 
 Most of the roughly 60 other models scored 2/20 to 9/20. They're summarised by idea in [05](05-failures.md).

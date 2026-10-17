@@ -11,14 +11,14 @@ failed, and what we learned about the machine. It's updated as the work goes on.
 
 ## Where things stand
 
-_As of Oct 17, 02:00 UTC. Public board: publicqi #1 at 18/20 (90%), **us #2 at 16/20 (80%)**, virtual_jpeg #3 at 15/20, then brockjelmore 9/22 and ethanmlam 13/42._
+_As of Oct 17, 03:00 UTC. Public board: publicqi #1 at 18/20 (90%), **us #2 at 16/20 (80%)**, virtual_jpeg #3 at 15/20, then brockjelmore 9/22 and ethanmlam 13/42._
 
 | | |
 |---|---|
 | Best qualifying model | `8ad9b56a` ("lq-c8r2"), **16/20 = 80%, #2** behind 18/20. Earlier board entry: cnn-v2 at 12/20 |
 | Earlier peak | #1 at 60% on day one; `8fb77333` (hp-fg2) briefly held #3 at 13/21 |
-| Paid runs so far | about 3,370 across 120+ models, about $92 in entry fees |
-| Current bet | more lq-c8 re-roll tickets (aiming for ≥ 18/20), hp-c8s (c8 + sticky-spot dislodge), hp-fl1 copies and hp-fl9 |
+| Paid runs so far | about 3,620 across 130+ models, about $99 in entry fees |
+| Current bet | c8 is about 49% over 540 copy runs, so 18/20 is a long shot. Remaining budgets go to day-window tickets |
 | Net money | roughly break-even: prizes and training-data sales offset entry fees |
 
 ## The short version

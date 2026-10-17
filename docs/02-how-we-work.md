@@ -24,6 +24,8 @@ Sessions share findings through a common `SYNTHESIS.md` and their own `NOTES.md`
 - **Never pay twice on an unresolved quote.** Reconcile it through `GET /v1/quotes/{id}` first, as the docs
   require. Several sessions hit stale or empty challenges and handled them without double-paying.
 - **Run queue:** at most 1–2 queued runs per session. The machine is shared with everyone.
+- **Session caps hold.** The learned-policy session stopped at $19.33 of its $20 cap. Its two runner slots raced on the
+  cap check, and both started a final batch, but it still finished under the cap.
 - **Hypothesis first:** each new model ID records the change and its hypothesis.
 - **Finish qualifiers:** a 20-run qualifying batch, once started, is always finished.
 

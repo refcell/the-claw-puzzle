@@ -11,13 +11,13 @@ failed, and what we learned about the machine. It's updated as the work goes on.
 
 ## Where things stand
 
-_As of Oct 17, 15:00 UTC. Public board: publicqi #1 at 18/20 (90%), **us #2 at 17/20 (85%)**, virtual_jpeg #3 at 15/20, then brockjelmore 9/22 and ethanmlam 13/42._
+_As of Oct 17, 16:00 UTC. Public board: publicqi #1 at 18/20 (90%), **us #2 at 17/20 (85%)**, virtual_jpeg #3 at 15/20, then brockjelmore 9/22 and ethanmlam 13/42._
 
 | | |
 |---|---|
 | Best qualifying model | `606b2d85` ("v3c-fl1r10", an exact hp-fl1 copy), **17/20 = 85%, #2** behind 18/20 |
 | Earlier peaks | #1 at 60% on day one (cnn-v2, 12/20); #2 at 16/20 with lq-c8r2 on day three |
-| Paid runs so far | about 4,860 across 190+ models, about $115 in entry fees |
+| Paid runs so far | about 4,880 across 195+ models, about $116 in entry fees |
 | Current bet | Re-rolls have stopped. fl1 is about 48% and c8 about 50%, so a sole #1 at 19/20 is roughly a 1-in-10,000 shot per ticket. Only candidates with evidence of a real improvement get more runs |
 | Net money | roughly break-even: prizes and training-data sales offset entry fees |
 

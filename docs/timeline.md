@@ -108,4 +108,5 @@
   06:10 slump. The second gated qualifier was at 4/13, and the gated good-zone path stands at 9/18 against a historical 66%.
 - 12:30–14:00 UTC: play nearly stopped. The strict gated qualifier max-g2 finished 9/20, worse than the streak-gated g1
   (12/20), and the clean good-zone path stands at 14/25. A third gated model (settle 11) started.
-- 14:15 UTC: day-window tickets resumed. servo ran a 20-run c8 copy, and the gated session ran 16 runs (result pending).
+- 14:15 UTC: day-window tickets resumed. servo ran a 20-run c8 copy, and the gated session finished max-g3 at 12/20.
+- Day c8 copies: servo-c8s8 went 5/20 (stuck 0/10) and servo-c8s9 11/20. The three gated qualifiers total 33/60 = 55%.

@@ -57,7 +57,7 @@ the best is a legitimate strategy. Its best batch overstates the policy's true r
   while at night, with thin queues, it stays in the placement we already failed on. So c8 copies are scheduled for the
   day window, and night value depends on unsticking.
 - **The gated qualifier's history was optimistic.** Clean good-zone frames had won 104/157 = 66% in the history, but
-  the two gated qualifiers went 14/25 = 56% on that path. Replays show the policy isn't the cause. The likely reasons are
+  the three gated qualifiers went 17/28 = 61% on that path. Replays show the policy isn't the cause. The likely reasons are
   selection in the historical count and drift in the machine.
 - **Expected best draw.** The expected best of about 20 copies at p = 0.53 is about 15/20. Our 15–17/20 results are
   what a portfolio of roughly 50% policies produces.

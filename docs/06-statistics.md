@@ -59,6 +59,8 @@ the best is a legitimate strategy. Its best batch overstates the policy's true r
 - **The gated qualifier's history was optimistic.** Clean good-zone frames had won 104/157 = 66% in the history, but
   the three gated qualifiers went 17/28 = 61% on that path. Replays show the policy isn't the cause. The likely reasons are
   selection in the historical count and drift in the machine.
+- **#1 is probably luck on the same mechanism.** Across about 215 tickets of about 20 runs on the board, a simulation gives
+  P(max ≥ 18/20) ≈ 5% even if every ticket were p = 0.5. The leaders' state-adjusted scores sit in that upper tail.
 - **Expected best draw.** The expected best of about 20 copies at p = 0.53 is about 15/20. Our 15–17/20 results are
   what a portfolio of roughly 50% policies produces.
 - **Copies of one policy scatter widely.** Nine hp-fl1 copies went 10, 10, 10, 8, 7, 13, 7, 8 and 8 out of 20 (81/180 = 45%). Four hp-fl11 copies total 42/100. Two hp-fl8

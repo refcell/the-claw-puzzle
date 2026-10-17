@@ -16,6 +16,7 @@ O/E is the state-adjusted score explained in [06](06-statistics.md).
 | hp-c8sr18–sr40 | hp-c8sr18–sr40 | c8 + sticky dislodge, at night | 4, 6, 3, 7, 3, 10, 8, 6, 7, 4, 3, 12, 15, 6, 5, 10, 3, 8, 11, 7, 10, 8, 2 (158/460; line total 338/820) | — |
 | `7735e97a` | servo-c8s7 | c8r2 copy | 4/20 at night (stuck 1/8) | — |
 | `993a052e` | servo-c8k | c8 + sticky dislodge | 12/20 at night (rule never fired) | — |
+| `2be1c29b` | hp-st1 | fl1 + stochastic aim on hard classes | 6/10 screen, O/E 2.09 | 2.09 |
 | `0ef265c5` | max-g3 | fg5 + settle 11, g1 gate | 12/20 gated (three gated: 33/60) | — |
 | `7bf50a09` / `4a7568a6` | servo-c8s8 / c8s9 | c8r2 copies, day | 5/20, 11/20 (servo's c8 copies 90/200) | — |
 | `7f471aaa` | max-g2 | fg5-equivalent, strict good-zone gate | 9/20 = 45% gated | — |

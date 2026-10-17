@@ -13,6 +13,17 @@
 - **Lesson:** gating on the camera alone failed. Jobs queued ahead kept moving the capsule before ours ran. Stuck
   states persist through other players' runs, which makes the streak signal sturdier.
 
+## After studying the leaders (day four)
+Since the leaders run the same plan, three cheap mechanisms aimed at grip slips are being screened for about 10 runs
+each and judged by state-adjusted O/E against fl1 (about 1.6):
+1. A closed-loop "never drop right of the capsule" check after the settle, using a claw-tip tracker.
+2. A −0.4 px left aim bias (about −30 ms of R) on capsules with cx < 90.5, matching the #3 model's median.
+3. Keep the back-row band at ey 2.5–3.5 and avoid ey ≥ 3.5.
+
+hp is also screening **stochastic aim** on the hard classes (cx 88.5–91.2, cy 83–88.2): jitter in place of a single
+fixed aim. hp-st1 went 6/10 (O/E 2.09). Its one flaw was a stuck back capsule just outside the band, so hp-st2 widens
+the band to cx ≥ 86 (census class 86–90.5: ey 3–4 won 14/26).
+
 ## Manual unsticking
 - Manual games don't count for the leaderboard, but they're allowed and pay prizes.
 - When the machine is stuck, the max session may buy a scripted manual turn designed to knock the capsule out

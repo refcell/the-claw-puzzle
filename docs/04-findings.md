@@ -109,3 +109,29 @@ session now pays only when no job is unfinished, or when the one running job is 
 - Absolute colour thresholds misfire at night. Floor-relative features or a narrower ROI fix most of it.
 - Field win rate over the logged history: night 701/3,520 = 20%, day 1,293/4,416 = 29%. One leading public model has
   gone 17/27 at night.
+
+## 10. What the leaders do (from public recordings and job records)
+We studied the #1 model (18/20) through the 5 of its 20 recordings that were ever sold plus the free job records for all
+20, and all 20 recordings of the #3 model (15/20).
+- **They use the same plan we do.** Every recording is open-loop: R (a 1000 ms chunk plus a top-up), then U, settle and
+  the drop (250 ms). There are no left or down moves, no wiggles, no re-aiming and no second drops.
+- **Aim matches within our own scatter.** Replaying c8 and fl1 on the leaders' first frames gives median hold
+  differences of a few tens of ms, under 0.7 px of landing.
+- **Settle matches.** From the last move to the drop: #1 1,157 ms, fl1 1,158 ms, c8 1,250 ms, #3 1,260 ms. Within a model,
+  settle above vs below the median made no difference (O/E 1.38 vs 1.48).
+- **Nothing can act after the drop.** There were 0 model inferences in 8,152 post-drop frames over 164 recordings. The
+  server runs the descend, close and lift itself, so re-closing or shaking is impossible.
+- **State-adjusted scores** (field: fresh 0.435, stuck 0.228): #1 2.90, our fl1r10 2.74, #3 2.50, c8 pooled 1.62 over
+  640 runs, #3's player pooled 1.60 over 352 runs.
+
+**Where losses come from** (66 losses and 75 wins tracked frame by frame after the drop):
+- 60 of 66 losses are grip slips: the capsule lifts at least 6 px (median peak 44 px, against 51 px for wins) and then
+  falls. Only 3 were clean misses.
+- **Landing right of the capsule predicts slips.** Among lifted runs (excluding far right), ex ≥ +0.5 px kept 6/20
+  (30%), against 67/105 (64%) for ex < +0.5.
+
+## 11. Near-right back is a reach limit
+In 558 c8 runs with the landing measured from video, capsules at cx 88–90.5, cy ≤ 84 get a measured claw landing of about
+lx 85.8–86.0 for every R from 1650 to 1900+ (dx −2.9 to −4.3), and they win 4/63. More R doesn't move the claw further
+right, so aim can't center these capsules. Only contact tactics (dislodge, push or rake) can help. In mid field, the
+measured dx has an sd of only 0.74 px with flat outcomes, so closed-loop correction has nothing to fix.

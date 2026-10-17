@@ -74,3 +74,7 @@
 - 00:40 UTC: the queue was entirely our own jobs, 5–8 deep. Sessions were asked to cap themselves at one queued job.
 - intel-c8s and servo-c8s2 each finished 10/20, so ten c8 copies total 113/200. v3c-fl1r5 finished 13/20, the best
   fl1 copy, and hp-fl11 10/20 (9 straight wins after a 1/11 start). More c8 copies (r11–r14) were launched.
+- 01:30 UTC: pooling all 21 c8-family IDs gives 195/385 = 51%. That corrected an earlier "lighting-sensitive" claim,
+  which was selection bias. The board's 16/20 is c8's luckiest draw.
+- Copies kept finishing at 8–12/20: servo-c8s3 11, servo-c8s4 10 and intel-c8s3 12, with fl1 copies at 7 and 8.
+  hp-fl12 finished 5/20. The fl1 line paused day copies for the night and launched a night-corrected ticket.

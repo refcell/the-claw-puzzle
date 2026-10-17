@@ -24,6 +24,9 @@
 - Since ties share rank and only the best model counts, sessions run every solid candidate to a full 20 runs.
 - **Target 14/20** to tie the current leaders.
 - Batches are never abandoned early.
+- **Pause tickets at night.** For a copy with a true rate around 46% by day and 32% at night, P(≥ 14/20) is about 1% per
+  day batch and about 0.02% per night batch. Budget is the constraint, so the fl1 line pauses new copies between
+  roughly 01:35 and 14:15 UTC.
 - **Portfolio foundation, day three evening:** fl1 copies fell to about 35–45% raw, so new tickets go to lq-c8r2 copies
   (58% pooled).
 - **Re-roll tickets:** strong policies are re-uploaded with a tiny byte change (for example a 1e-4 constant or a
@@ -34,6 +37,8 @@
 - **The gate rarely opens.** Over 8 hours (1,356 camera samples), the capsule sat in a vetoed zone 82% of the time.
   All gate conditions held in only 29 samples (2%), and every one of those was a good-zone frame. Strict gating
   buys a higher per-run rate at the cost of very few runs.
+- The gated session's qualifying record so far is 2/5. A loss slipped through on an unclean frame pair at cx 93.5,
+  so a second veto now rejects unclean pairs when both frames are at cx ≥ 84.
 - The streak-gated session vetoes clean frames at 84 ≤ cx < 88 (43% win rate, n = 58) as well as far right. A
   stricter cx < 84 veto would be about 60% but would cost throughput.
 - The streak-gated session now opens a short window when the streak and camera allow a run but the queue is deep

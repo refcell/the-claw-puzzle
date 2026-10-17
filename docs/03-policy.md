@@ -90,8 +90,8 @@ lq-c8 is lq-c5 with two hard-zone changes taken from the all-player band data:
 Full build parameters: `settle=11 pull=0.75 left=1 xfg5=1 xramp=1 nrback=1 middeep=0.5 nrfg=2.25 rfar=1750
 nrbey=3.25`. Re-roll tickets change only `left` to 1.0001, 1.0002 and so on, so the bytes differ.
 
-Ten finished 20-run draws of byte-distinct identical copies: **9, 15, 16, 8, 12, 8, 10, 15, 10 and 10 out of 20**
-(113/200 = 56.5%). The 9/20 batch ran in a weak
+Across all 21 c8-family IDs, the policy has won **195/385 = 51%** (day 113/212 = 53%, dusk and night 82/173 = 47%,
+against a field rate of about 27% in both). Single copies have ranged from 8/20 to 16/20. The 9/20 batch ran in a weak
 evening window (field about 25%), and the two strong batches ran on the morning of day three. See
 [06](06-statistics.md) for why best-of-several is an optimistic estimate.
 
@@ -114,3 +114,8 @@ intel-flbk tests fl1 plus only the back-row rule, which moves fl1's non-teal bac
 ## Night
 Win rates are about 30% or less at night for everyone, us included. After the ROI fix, our night performance
 matched the field's best. Public night runs showed no hidden trick.
+
+**Night x correction (v3c-fl1n, testing).** Replaying fl1 on 199 night recordings, its predicted x error has a median
+of +0.24 px. Recorded night wins favour ex < 0 (32/43) over ex 0–1 (18/32). fl1n flags night when the mean of sky
+rows 0–20 is below 60/255 (day sky is ≥ 125), and for non-far-right capsules subtracts `nxs / 0.0117` from R, with
+nxs = 0.6. Day frames are unchanged.

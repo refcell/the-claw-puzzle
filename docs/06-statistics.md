@@ -45,11 +45,12 @@ A variant: compute the expectation from the outcomes of the ±60 neighbouring ru
 ## Re-roll tickets and selection
 The board counts each player's best model, so running several byte-distinct copies of one policy and keeping
 the best is a legitimate strategy. Its best batch overstates the policy's true rate, though.
-- lq-c8's ten finished identical copies went 9, 15, 16, 8, 12, 8, 10, 15, 10 and 10 out of 20. Pooled, that's
-  113/200 = 56.5% (roughly 50–63%). Our 16/20 board entry is its best draw, so the board overstates the policy by about
-  20 points.
-- **Copies of one policy scatter widely.** Seven hp-fl1 copies went 10, 10, 10, 8, 7, 13 and 7 out of 20 (65/140 = 46%). Two hp-fl8
-  copies went 9 and 7 (16/40). The v26 rule went 11, 5, 9 and 7 out of 20 (32/80), and the v29 rule 19/60 over three batches. Later re-rolls of
+- **lq-c8 across all 21 family IDs: 195/385 = 51%.** Our 16/20 board entry is its best draw, so the board overstates
+  the policy by about 30 points. At a true 50%, P(≥ 14/20) is about 6% per copy, and P(≥ 18/20) about 0.02%.
+- **A lighting effect that was really selection bias.** An early note claimed c8 was sensitive to light. It counted only
+  the early copies. With all IDs, day is 53% (fresh 43/79) and dusk 47% (fresh 42/79), within noise of each other.
+- **Copies of one policy scatter widely.** Eight hp-fl1 copies went 10, 10, 10, 8, 7, 13, 7 and 8 out of 20 (73/160 = 46%). Two hp-fl8
+  copies went 9 and 7 (16/40). Every hard-placement build since fl8 (seven of them) has landed between 25% and 50%. The v26 rule went 11, 5, 9 and 7 out of 20 (32/80), and the v29 rule 19/60 over three batches. Later re-rolls of
   the two rules ranged from 3/20 to 12/20.
 - **Fresh vs stuck dominates:** an hp-fl1 copy went 10/20 raw, but 6/7 from fresh states and 4/13 from stuck ones.
 - **The same rule, an hour apart:** cnn-v26 and cnn-v27 have identical aim and went 11/20 and 5/20. A 20-run batch

@@ -11,7 +11,7 @@ failed, and what we learned about the machine. It's updated as the work goes on.
 
 ## Where things stand
 
-_As of Oct 17, 12:00 UTC. Public board: publicqi #1 at 18/20 (90%), **us #2 at 17/20 (85%)**, virtual_jpeg #3 at 15/20, then brockjelmore 9/22 and ethanmlam 13/42._
+_As of Oct 17, 13:00 UTC. Public board: publicqi #1 at 18/20 (90%), **us #2 at 17/20 (85%)**, virtual_jpeg #3 at 15/20, then brockjelmore 9/22 and ethanmlam 13/42._
 
 | | |
 |---|---|

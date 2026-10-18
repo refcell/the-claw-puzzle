@@ -21,6 +21,7 @@ O/E is the state-adjusted score explained in [06](06-statistics.md).
 | `3584bf8a` | intel-c8bk3 | c8bk2 + back-row x fix | 0/20 (patch never fired; one stuck capsule) | 0.00 |
 | `e270b2e2` | servo-dd1 | dynamic drop on back rows | 2/20 (rule 0/5) | 0.43 |
 | servo-ya1 | servo-ya1 | c8 + approach direction on back rows | 11/20 (rule 3/8) | 1.60 |
+| `500bb11b` | max-g6 | fg5 copy, g1 gate | 14/20 gated (six gated: 66/120) | — |
 | `5dab67aa` | max-g5 | fg5 + −0.4 px left bias, g1 gate | 9/20 gated (five gated: 52/100) | — |
 | `d8d01a59` | max-g4 | fg5 + settle 12, g1 gate | 10/20 gated | — |
 | `0ef265c5` | max-g3 | fg5 + settle 11, g1 gate | 12/20 gated (three gated: 33/60) | — |
@@ -86,6 +87,6 @@ O/E is the state-adjusted score explained in [06](06-statistics.md).
 | servo cl2–cl4 | closed loop | servo on the claw | 0/4 | — |
 
 **Status (day four):** the back-row x fix and the dynamic drop both screened null. The gated session is the only one still
-playing: max-g6-fg5c (`500bb11b`), a behavioural copy of fg5. hp and servo have stopped their lines. Plain copy re-rolls have ended.
+playing: max-g7-fg5c (`062f83be`), another fg5 copy. hp and servo have stopped their lines. Plain copy re-rolls have ended.
 
 Most of the roughly 60 other models scored 2/20 to 9/20. They're summarised by idea in [05](05-failures.md).

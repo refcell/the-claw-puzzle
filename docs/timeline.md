@@ -132,3 +132,4 @@
 - By 15:15 UTC, virtual_jpeg had tied us at 17/20 (#2) with a new model. publicqi still leads at 18/20.
 - 15:35 UTC: the gated max-g6 finished 14/20, the gated session's best. It doesn't change our rank (tied #2 at 17/20),
   and the six gated qualifiers total 66/120 = 55%.
+- 17:30 UTC: max-g7 also finished 14/20. Seven gated qualifiers total 80/140 = 57%.

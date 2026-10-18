@@ -136,3 +136,4 @@
 - 18:20 UTC: max-g8 finished 15/20. The last three gated tickets (15:00–18:20) went 43/60 = 72%, and all eight total
   95/160 = 59%.
 - 20:30 UTC: max-g9 finished 10/20. Nine gated qualifiers total 105/180 = 58%.
+- 21:30 UTC: max-g10 finished 13/20. Ten gated qualifiers total 118/200 = 59%.

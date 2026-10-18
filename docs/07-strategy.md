@@ -78,9 +78,10 @@ Pooled 19/60, below fl1. Null.
   gated qualifier drops the streak check. It runs only on a clean good-zone frame (cx < 84, cy 84–94.5, oy < 0.6,
   compact) with a near-immediate start. The expected rate was about 66% (history 104/157), but it finished **9/20 = 45%** (max-g2), so the strict
   gate did not beat the streak gate. A third gated model (max-g3, fg5 with settle 11, g1 gate) went **12/20**. The three gated qualifiers total
-  **33/60 = 55%**: good-zone passes 17/28 = 61%, other passes 16/32 = 50%. A fourth (settle 12) went 10/20, so settle length shows no effect. Seven gated qualifiers: 12, 9, 12, 10, 9, 14 and 14 out of 20 (**80/140 = 57%**). The sixth (max-g6, an fg5 copy) was the
+  **33/60 = 55%**: good-zone passes 17/28 = 61%, other passes 16/32 = 50%. A fourth (settle 12) went 10/20, so settle length shows no effect. Eight gated qualifiers: 12, 9, 12, 10, 9, 14, 14 and 15 out of 20 (**95/160 = 59%**). The last three, on a quiet
+  day-five machine with few other players, went 43/60 = 72%. The sixth (max-g6, an fg5 copy) was the
   first to reach the original 14/20 target, but by then only ≥ 18/20 would change our rank, about 0.1% per ticket at 55%. No new mechanism applies to gated
-  placements, because the back-row and corner findings sit in vetoed zones. An eighth fg5 copy is running. A loss slipped through on an unclean frame pair at cx 93.5,
+  placements, because the back-row and corner findings sit in vetoed zones. A ninth fg5 copy is running. A loss slipped through on an unclean frame pair at cx 93.5,
   so a second veto now rejects unclean pairs when both frames are at cx ≥ 84.
 - The streak-gated session vetoes clean frames at 84 ≤ cx < 88 (43% win rate, n = 58) as well as far right. A
   stricter cx < 84 veto would be about 60% but would cost throughput.

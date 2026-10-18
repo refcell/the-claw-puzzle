@@ -125,3 +125,8 @@
   (fixed in c8bk3). Dynamic drop started. The gated max-g4 went 10/20, so settle length has no effect. hp paused.
 - 18:15–19:15 UTC: servo-dd1 (dynamic drop) finished 2/20, null. intel-c8bk3 went 0/20, all on one stuck mid-right
   capsule its patch never touched. Play slowed to about 20 runs an hour.
+
+## Day 5 (Oct 18)
+- Overnight and into the day, only the gated session played (about 17 runs). max-g5 finished 9/20, and the five gated
+  qualifiers total 52/100.
+- By 15:15 UTC, virtual_jpeg had tied us at 17/20 (#2) with a new model. publicqi still leads at 18/20.

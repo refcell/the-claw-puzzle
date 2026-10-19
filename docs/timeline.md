@@ -142,3 +142,5 @@
 - By 02:30 UTC Oct 19, publicqi had posted 20/20 with a new model and holds #1 alone. We stay tied #2 at 17/20 with
   virtual_jpeg.
 - Our play paused: no runs were paid after 01:58 UTC on Oct 19, with the thirteenth gated ticket (max-g13) unfinished.
+- 12:30 UTC Oct 19: manual unstick grabs resumed. The corner recipe (R 1790, U 1275) moved a stuck far-right back capsule
+  into open field (3/3 live), and the next run won.

@@ -82,6 +82,8 @@ Most losses with good aim are **slips at lift or pushes at contact.** None of th
 - **Night copies in a slump.** One session kept running ungated copies through the night. 23 batches went
   158/460 = 34% while the whole machine ran at about 25%, even though the day/night data had already argued
   for day-only copies.
+- **An accidental paid grab.** A helper command was run just to print its usage, which started a manual run before a
+  tool timeout killed it. The server dropped the claw automatically ($0.01, reconciled).
 - **Camera gating had low fidelity.** By the time a gated job ran, jobs queued ahead had often moved the capsule.
 - **Agent sessions crashed** on oversized session logs (a single 450 KB line). They were replaced by fresh
   sessions that resumed from notes.

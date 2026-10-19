@@ -139,6 +139,8 @@ At cx ≥ 90.3, cy < 83.5 (not front-green), every recorded attempt lost: 0/20. 
 (< 1.2 px; R 1800–2000, U 980–1165). Only U ≈ 1200 at R ≈ 1790 moved it (2/2), pulling it 8–10 px forward into open field.
 In one five-minute stretch it absorbed 20 straight runs from two sessions. The dislodge recipe is U 1250–1300 at
 R 1790 (landing just behind it). That run is lost anyway, but the next run gets a mid-field state.
+**Live: 3/3.** On day six, a manual grab at R 1790 / U 1275 moved a corner capsule from (90.9, 83.3) to (85.5, 88.9), and the
+next run won. The manual-unstick rule is now cx ≥ 90.3, cy < 83.8, oy < 2.0 → R 1790, U 1275.
 
 ## 12. Near-right back is a reach limit
 In 558 c8 runs with the landing measured from video, capsules at cx 88–90.5, cy ≤ 84 get a measured claw landing of about

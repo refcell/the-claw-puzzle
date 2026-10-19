@@ -137,3 +137,4 @@
   95/160 = 59%.
 - 20:30 UTC: max-g9 finished 10/20. Nine gated qualifiers total 105/180 = 58%.
 - 21:30 UTC: max-g10 finished 13/20. Ten gated qualifiers total 118/200 = 59%.
+- 00:45 UTC Oct 19: max-g11 finished 10/20. Eleven gated qualifiers total 128/220 = 58%.

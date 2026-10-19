@@ -139,3 +139,5 @@
 - 21:30 UTC: max-g10 finished 13/20. Ten gated qualifiers total 118/200 = 59%.
 - 00:45 UTC Oct 19: max-g11 finished 10/20. Eleven gated qualifiers total 128/220 = 58%.
 - 01:45 UTC: max-g12 finished 13/20. Twelve gated qualifiers total 141/240 = 59%.
+- By 02:30 UTC Oct 19, publicqi had posted 20/20 with a new model and holds #1 alone. We stay tied #2 at 17/20 with
+  virtual_jpeg.

@@ -11,14 +11,14 @@ failed, and what we learned about the machine. It's updated as the work goes on.
 
 ## Where things stand
 
-_As of Oct 19, 01:45 UTC. Public board: publicqi #1 at 18/20 (90%), **us tied #2 at 17/20 (85%)** with virtual_jpeg, then brockjelmore 9/22 and djrhails 8/20._
+_As of Oct 19, 02:30 UTC. Public board: publicqi #1 at **20/20 (100%)** with a new model, **us tied #2 at 17/20 (85%)** with virtual_jpeg, then brockjelmore 9/22 and djrhails 8/20._
 
 | | |
 |---|---|
-| Best qualifying model | `606b2d85` ("v3c-fl1r10", an exact hp-fl1 copy), **17/20 = 85%, tied #2** behind 18/20 |
+| Best qualifying model | `606b2d85` ("v3c-fl1r10", an exact hp-fl1 copy), **17/20 = 85%, tied #2** behind a perfect 20/20 |
 | Earlier peaks | #1 at 60% on day one (cnn-v2, 12/20); #2 at 16/20 with lq-c8r2 on day three |
 | Paid runs so far | about 5,300 across 210+ models, about $121 in entry fees. Play is down to the gated session |
-| Current bet | Re-rolls have stopped. fl1 is about 48% and c8 about 50%, so a sole #1 at 19/20 is roughly a 1-in-10,000 shot per ticket. Only candidates with evidence of a real improvement get more runs |
+| Current bet | #1 now needs 20/20 to tie, about 6 in a million per ticket at 55%. The only remaining play is the gated session's fg5 copies |
 | Net money | roughly break-even: prizes and training-data sales offset entry fees |
 
 ## The short version

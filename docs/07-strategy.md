@@ -52,6 +52,8 @@ Pooled 19/60, below fl1. Null.
 - Since ties share rank and only the best model counts, sessions run every solid candidate to a full 20 runs.
 - **Target 14/20** to tie the current leaders.
 - Batches are never abandoned early.
+- **Day five: #1 went to 20/20.** A tie for #1 now needs a perfect batch. At a true rate of 55%, that's
+  0.55^20 ≈ 6 × 10⁻⁶ per ticket, so #1 is effectively out of reach, and the realistic goal is holding the tie at #2.
 - **Stop when the target is out of reach.** After the 17/20, sole #1 needs 19/20 (a tie needs 18/20). At about 50%,
   that's roughly 1 in 10,000 per ticket, so plain re-rolls stopped. Only candidates with evidence of a real improvement
   (a better rate in stuck states or hard placements) justify more spend.

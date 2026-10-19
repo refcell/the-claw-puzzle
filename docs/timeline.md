@@ -141,5 +141,4 @@
 - 01:45 UTC: max-g12 finished 13/20. Twelve gated qualifiers total 141/240 = 59%.
 - By 02:30 UTC Oct 19, publicqi had posted 20/20 with a new model and holds #1 alone. We stay tied #2 at 17/20 with
   virtual_jpeg.
-- After publicqi's 20/20, play stopped. No runs were paid after 01:58 UTC on Oct 19, with the thirteenth gated ticket
-  (max-g13) unfinished.
+- Our play paused: no runs were paid after 01:58 UTC on Oct 19, with the thirteenth gated ticket (max-g13) unfinished.
